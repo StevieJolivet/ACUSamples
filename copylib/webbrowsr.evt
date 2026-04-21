@@ -1,0 +1,361 @@
+      * webbrowsr.evt
+      * webbrowsr.evt is generated from C:\Users\Public\Documents\Rocket Software\extend 11.0.0\sample\acubench\webbrowsr.Psf
+      * This is a generated file. DO NOT modify this file directly.
+
+
+       Acu-Cust-Screen-Event-Extra.
+           EVALUATE Event-Type
+           WHEN Msg-Close
+              PERFORM Acu-Cust-Screen-Msg-Close
+           END-EVALUATE
+           .
+
+       Acu-Cust-Screen-Msg-Close.
+           ACCEPT Quit-Mode-Flag FROM ENVIRONMENT "QUIT_MODE"
+           IF Quit-Mode-Flag = ZERO
+              PERFORM Acu-Cust-Screen-Exit
+              PERFORM Acu-Exit-Rtn
+           END-IF
+           .
+
+       Cust-Screen-Event-Proc.
+      * 
+           PERFORM Acu-Cust-Screen-Event-Extra
+           .
+
+       Cust-Screen-Exception-Proc.
+      * 
+           IF Event-Occurred
+              EVALUATE Event-Type
+              WHEN Ntf-Resized
+                 PERFORM Cust-Screen-Ex-Ntf-Resized
+              END-EVALUATE
+           END-IF
+           .
+
+       WB-1-Event-Proc.
+      * 
+           EVALUATE Event-Type
+           WHEN Msg-Wb-Navigate-Complete
+              PERFORM Wb1-Nav-Complete
+           WHEN Msg-Wb-Title-Change
+              PERFORM Wb1-Title-Change
+           END-EVALUATE
+           .
+      ***   start event editor code   ***
+      *
+       BEFORE-PROGRAM.
+           move "https://www.rocketsoftware.com" TO URLEF-VALUE.      
+      *
+       FIRSTREC-PB-LINK.
+      *
+           MOVE 0 TO CUSTOMER-NAME-ENABLED
+           MODIFY COMPANYNAME-EF, ENABLED CUSTOMER-NAME-ENABLED
+           MOVE LOW-VALUES TO CUSTOMER-NAME
+           START CUSTOMER-FILE KEY > CUSTOMER-NAME
+           READ CUSTOMER-FILE NEXT RECORD
+           AT END 
+             DISPLAY MESSAGE BOX 
+                     "NO RECORDS IN FILE"
+                     TITLE "CUSTOMER-FILE ERROR"
+           NOT AT END
+             PERFORM UPDATE-SCREEN-FIELDS
+             PERFORM UPDATE-SCREEN
+           END-READ           
+           .
+      *
+       PREVREC-PB-LINK.
+           MOVE 0 TO CUSTOMER-NAME-ENABLED
+           MODIFY COMPANYNAME-EF, ENABLED CUSTOMER-NAME-ENABLED
+           READ CUSTOMER-FILE PREVIOUS RECORD
+           AT END 
+             DISPLAY MESSAGE BOX 
+                     "AT BEGINNING OF FILE"
+                     TITLE "CUSTOMER-FILE ERROR"
+             READ CUSTOMER-FILE KEY IS CUSTOMER-NAME END-READ
+           NOT AT END  
+             PERFORM UPDATE-SCREEN-FIELDS
+             PERFORM UPDATE-SCREEN
+           END-READ           
+           .
+      *
+       NEXTREC-PB-LINK.
+           MOVE 0 TO CUSTOMER-NAME-ENABLED
+           MODIFY COMPANYNAME-EF, ENABLED CUSTOMER-NAME-ENABLED
+           READ CUSTOMER-FILE NEXT RECORD
+           AT END 
+             DISPLAY MESSAGE BOX 
+                    "AT END OF FILE"
+                    TITLE "CUSTOMER-FILE ERROR"
+             READ CUSTOMER-FILE KEY IS CUSTOMER-NAME END-READ
+           NOT AT END  
+             PERFORM UPDATE-SCREEN-FIELDS
+             PERFORM UPDATE-SCREEN
+           END-READ            
+           .
+      *
+       LASTREC-PB-LINK.
+           MOVE 0 TO CUSTOMER-NAME-ENABLED
+           MODIFY COMPANYNAME-EF, ENABLED CUSTOMER-NAME-ENABLED
+           MOVE HIGH-VALUES TO CUSTOMER-NAME
+           START CUSTOMER-FILE KEY < CUSTOMER-NAME
+           READ CUSTOMER-FILE PREVIOUS RECORD
+           AT END DISPLAY MESSAGE BOX 
+                               "NO RECORDS IN FILE"
+                               TITLE "CUSTOMER-FILE ERROR"
+           END-READ
+           PERFORM UPDATE-SCREEN-FIELDS
+           PERFORM UPDATE-SCREEN           
+           .
+      *
+       NEWREC-PB-LINK.
+           MOVE 1 TO CUSTOMER-NAME-ENABLED
+           MODIFY COMPANYNAME-EF, ENABLED CUSTOMER-NAME-ENABLED           
+           .
+      *
+       WRITEREC-PB-LINK.
+           PERFORM WRITE-CURRENT-RECORD
+           READ CUSTOMER-FILE KEY IS CUSTOMER-NAME  
+           PERFORM UPDATE-SCREEN-FIELDS
+           PERFORM UPDATE-SCREEN           
+           .
+      *
+       DELETEREC-PB-LINK.
+           DISPLAY MESSAGE BOX 
+             "ARE YOU SURE?"
+             TITLE "DELETING RECORD..."
+             TYPE IS MB-YES-NO,
+             DEFAULT IS MB-NO,
+             ICON IS MB-WARNING-ICON
+             GIVING MB-VALUE
+              
+           IF MB-VALUE = MB-YES 
+             DELETE CUSTOMER-FILE RECORD
+             MOVE LOW-VALUES TO CUSTOMER-NAME
+             START CUSTOMER-FILE KEY > CUSTOMER-NAME
+             PERFORM UPDATE-SCREEN-FIELDS
+             PERFORM UPDATE-SCREEN
+           END-IF  
+           .
+      *
+       EMAIL-PB-LINK.
+           MOVE "MAILTO:INFO@ROCKETSOFTWARE.COM" TO WB-1-URL
+           MODIFY URL-EF, VALUE WB-1-URL
+           MODIFY WB-1, VALUE WB-1-URL           
+           .
+      *
+       REFRESHBROWSER-PB-LINK.
+           MOVE "https://www.rocketsoftware.com" TO WB-1-URL
+           MODIFY URL-EF, VALUE WB-1-URL
+           MODIFY WB-1 VALUE WB-1-URL             
+           .
+      *
+       SHOWAVI-PB-LINK.
+           INITIALIZE OPENSAVE-DATA, START-DIR 
+
+           STRING INSTALL-DIRECTORY(1:PATH-LENGTH), 
+             DELIMITED BY SIZE, 
+             "\", DELIMITED BY SIZE, 
+             "ACUBENCH", DELIMITED BY SIZE, 
+             "\", DELIMITED BY SIZE, 
+             INTO START-DIR.
+
+           MOVE AVI-FILES TO OPNSAV-FILTERS
+           PERFORM OPENSAVE-DIALOG           
+           .
+      *
+       SHOWHTML-PB-LINK.
+           INITIALIZE OPENSAVE-DATA, START-DIR
+
+           STRING INSTALL-DIRECTORY(1:PATH-LENGTH), 
+             DELIMITED BY SIZE, 
+             "\", DELIMITED BY SIZE, 
+             "ACUGT", DELIMITED BY SIZE, 
+             "\", DELIMITED BY SIZE, 
+             INTO START-DIR.
+
+           MOVE HTML-FILES TO OPNSAV-FILTERS
+           PERFORM OPENSAVE-DIALOG           
+           .
+      *
+       GOBACK-PB-LINK.
+           MODIFY WB-1 GO-BACK=1           
+           .
+      *
+       GOFORWARD-PB-LINK.
+           MODIFY WB-1 GO-FORWARD=1           
+           .
+      *
+       WB1-NAV-COMPLETE.
+           INQUIRE WB-1 VALUE IN WB-1-URL.
+           IF WB-1-URL IS NOT = URLEF-VALUE 
+             MOVE WB-1-URL TO URLEF-VALUE
+             MODIFY URL-EF, VALUE URLEF-VALUE             
+           END-IF.           
+           .
+      *
+       WB1-STATUS-CHANGE.
+      *     INQUIRE WB-1 STATUS-TEXT IN WB1-STATUS.
+      *     MODIFY WBSTATUS-LABEL TITLE WB1-STATUS.       
+           .
+      *
+       WB1-TITLE-CHANGE.
+           INQUIRE WB-1 TITLE IN WB-1-TITLE.
+           DISPLAY WB-1-TITLE UPON GLOBAL WINDOW TITLE.           
+           .
+      *
+       CUST-SCREEN-EX-NTF-RESIZED.
+           COMPUTE CURRENT-SCREEN-LINES = EVENT-DATA-1/100
+           COMPUTE CURRENT-SCREEN-SIZE = EVENT-DATA-2/100
+           PERFORM ADJUST-CONTROLS
+           .
+      *
+       CUST-SCREEN-AFT-CREATE.
+           MOVE LOW-VALUES TO CUSTOMER-NAME.
+           START CUSTOMER-FILE KEY > CUSTOMER-NAME.
+           PERFORM ACU-CUSTOMER-READ-NEXT           
+           .
+      *
+       CUST-SCREEN-AFT-INITDATA.
+           PERFORM UPDATE-SCREEN
+           .
+      *
+       CUSTOMER-AFTER-READ.
+           PERFORM UPDATE-SCREEN-FIELDS                      
+           .
+      *
+       UPDATE-SCREEN-FIELDS.          
+           MOVE CUSTOMER-NAME    TO WS-CUSTOMER-NAME.
+           MOVE CUSTOMER-ADDR-1  TO WS-CUSTOMER-ADDR-1.
+           MOVE CUSTOMER-ADDR-2  TO WS-CUSTOMER-ADDR-2.
+           MOVE CUSTOMER-CITY    TO WS-CUSTOMER-ADDR-3.
+           MOVE CUSTOMER-CONTACT TO WS-CUSTOMER-CONTACT.
+           MOVE CUSTOMER-PHONE   TO WS-CUSTOMER-PHONE.           
+      *     
+       UPDATE-SCREEN.           
+           MODIFY COMPANYNAME-EF, VALUE WS-CUSTOMER-NAME.
+           MODIFY ADDR1-EF, VALUE WS-CUSTOMER-ADDR-1.
+           MODIFY ADDR2-EF, VALUE WS-CUSTOMER-ADDR-2.
+           MODIFY ADDR3-EF, VALUE WS-CUSTOMER-ADDR-3.
+           MODIFY COMPANYCONTACT-COMBO, VALUE WS-CUSTOMER-CONTACT.
+           MODIFY CUSTOMER-PHONE-EF, VALUE WS-CUSTOMER-PHONE.
+      *
+       UPDATE-RECORD-FIELDS.
+           MOVE WS-CUSTOMER-NAME    TO CUSTOMER-NAME.
+           MOVE WS-CUSTOMER-ADDR-1  TO CUSTOMER-ADDR-1.
+           MOVE WS-CUSTOMER-ADDR-2  TO CUSTOMER-ADDR-2.
+           MOVE WS-CUSTOMER-ADDR-3  TO CUSTOMER-CITY.
+           MOVE WS-CUSTOMER-PHONE   TO CUSTOMER-PHONE.
+           MOVE WS-CUSTOMER-CONTACT TO CUSTOMER-CONTACT.       
+      *
+       WRITE-CURRENT-RECORD.            
+           PERFORM UPDATE-RECORD-FIELDS.
+           WRITE CUSTOMER-RECORD
+             INVALID KEY
+               REWRITE CUSTOMER-RECORD
+           END-WRITE.           
+      *
+       UPDATE-BROWSER.
+           MOVE URLEF-VALUE TO WB-1-URL.
+           MODIFY URL-EF, VALUE WB-1-URL.
+           MODIFY WB-1 VALUE WB-1-URL    .
+      *
+       OPENSAVE-DIALOG.
+           MOVE 1 TO OPNSAV-DEFAULT-FILTER.
+           MOVE "FILE SELECTOR" TO OPNSAV-TITLE.
+           MOVE START-DIR TO OPNSAV-DEFAULT-DIR.
+           CALL "C$OPENSAVEBOX" USING OPENSAVE-OPEN-BOX, OPENSAVE-DATA.
+      
+           IF RETURN-CODE NOT = OPNSAVERR-CANCELLED
+              MOVE OPNSAV-FILENAME TO URLEF-VALUE
+              PERFORM UPDATE-BROWSER
+           END-IF.
+      *     
+       ADJUST-CONTROLS.           
+           COMPUTE COMPNAMELBL-SIZE = (CURRENT-SCREEN-SIZE / 2) - 4.8.
+           COMPUTE COMPNAMEEF-SIZE  = (CURRENT-SCREEN-SIZE / 2) - 4.8.
+           COMPUTE COMPADDRLBL-SIZE = (CURRENT-SCREEN-SIZE / 2) - 4.8.
+           COMPUTE COMPADDREF1-SIZE = (CURRENT-SCREEN-SIZE / 2) - 4.8.
+           COMPUTE COMPADDREF2-SIZE = (CURRENT-SCREEN-SIZE / 2) - 4.8.
+           COMPUTE COMPADDREF3-SIZE = (CURRENT-SCREEN-SIZE / 2) - 4.8.
+           COMPUTE COMPANYCONTACTLBL-COL = 
+                                      (CURRENT-SCREEN-SIZE / 2) + 1.9.
+           COMPUTE COMPCONTACTLBL-SIZE = 
+                                      (CURRENT-SCREEN-SIZE / 2) - 2.4.
+           COMPUTE COMPANYCONTACTCOMBO-COL =
+                                      (CURRENT-SCREEN-SIZE / 2) + 1.9.
+           COMPUTE COMPCONTACTCOMBO-SIZE =
+                                      (CURRENT-SCREEN-SIZE / 2) - 2.4.
+           COMPUTE CONTACTNUMLBL-COL =
+                                      (CURRENT-SCREEN-SIZE / 2) + 1.9.
+           COMPUTE CONTACTNUMLBL-SIZE = 
+                                      (CURRENT-SCREEN-SIZE / 2) - 2.4.
+           COMPUTE CUSTPHONE-COL =    (CURRENT-SCREEN-SIZE / 2) + 1.9.
+           COMPUTE CUSTPHONE-SIZE =   (CURRENT-SCREEN-SIZE / 2) - 2.4.
+           COMPUTE URLLBL-SIZE =       CURRENT-SCREEN-SIZE - 8.2.
+           COMPUTE URLEF-SIZE =        CURRENT-SCREEN-SIZE - 1.8.
+           COMPUTE WB1-LINES =         CURRENT-SCREEN-LINES - 31.6.   
+           COMPUTE WB1-SIZE =          CURRENT-SCREEN-SIZE - 1.8.
+           COMPUTE GOBACKBTN-COL =     CURRENT-SCREEN-SIZE - 5.5.
+           COMPUTE GOFORWARDBTN-COL =  CURRENT-SCREEN-SIZE - 2.9.
+           COMPUTE WBSTATUS-LINE =     CURRENT-SCREEN-LINES - 3.
+           COMPUTE WBSTATLBL-SIZE =    CURRENT-SCREEN-LINES - 1.8.
+      *     
+           MODIFY COMPANYNAME-LABEL
+              SIZE COMPNAMELBL-SIZE CELLS.
+              
+           MODIFY COMPANYNAME-EF, 
+              SIZE COMPNAMEEF-SIZE CELLS.
+              
+           MODIFY COMPANYADDR-LABEL, 
+              SIZE COMPADDRLBL-SIZE CELLS.
+              
+           MODIFY ADDR1-EF, 
+              SIZE COMPADDREF1-SIZE CELLS.
+              
+           MODIFY ADDR2-EF, 
+              SIZE COMPADDREF2-SIZE CELLS.
+              
+           MODIFY ADDR3-EF, 
+              SIZE COMPADDREF3-SIZE CELLS.
+              
+           MODIFY COMPANYCONTACT-LABEL, 
+              COL COMPANYCONTACTLBL-COL,
+              SIZE COMPCONTACTLBL-SIZE CELLS.
+              
+           MODIFY COMPANYCONTACT-COMBO, 
+              COL COMPANYCONTACTCOMBO-COL,
+              SIZE COMPCONTACTCOMBO-SIZE CELLS.
+              
+           MODIFY CONTACTNUM-LABEL, 
+              COL CONTACTNUMLBL-COL,
+              SIZE CONTACTNUMLBL-SIZE CELLS.
+              
+           MODIFY CUSTOMER-PHONE-EF, 
+              COL CUSTPHONE-COL,
+              SIZE CUSTPHONE-SIZE CELLS.
+              
+           MODIFY URL-LABEL, 
+              SIZE URLLBL-SIZE CELLS.
+              
+           MODIFY URL-EF, 
+              SIZE URLEF-SIZE CELLS.
+              
+           MODIFY WB-1, 
+              LINES WB1-LINES CELLS,
+              SIZE WB1-SIZE CELLS.
+              
+           MODIFY GOBACK-PB, 
+              COL GOBACKBTN-COL.
+      
+           MODIFY GOFORWARD-PB, 
+              COL GOFORWARDBTN-COL.
+              
+           MODIFY WBSTATUS-LABEL, 
+              LINE WBSTATUS-LINE,
+              SIZE WBSTATLBL-SIZE CELLS.
+
+
+
+
+       

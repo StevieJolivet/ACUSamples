@@ -1,0 +1,23 @@
+menu phonebk
+    "&Find", 0, submenu
+        "First" 1,
+        "Next" 2,
+        "Previous" 3,
+        separator
+        "Lookup" 4,
+    end-menu
+    "&Edit", 0, submenu
+        "Add", 6,
+        "Modify", 5, disabled
+        "Delete", 7, disabled
+    end-menu
+    "&Options", 0, submenu
+        "Change Colors", 0, submenu
+            "Foreground ", 10,
+            "Background ", 11,
+            "Use Defaults", 8, checked
+        end-menu
+        "Change Fonts", 12,
+    end-menu
+    "E&xit", 9
+end-menu

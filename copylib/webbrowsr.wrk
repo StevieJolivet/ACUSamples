@@ -1,0 +1,169 @@
+      * webbrowsr.wrk
+      * webbrowsr.wrk is generated from C:\Users\Public\Documents\Rocket Software\extend 11.0.0\sample\acubench\webbrowsr.Psf
+      * This is a generated file. DO NOT modify this file directly.
+
+       77 Quit-Mode-Flag PIC S9(5) COMP-4 VALUE 0.
+       77 Key-Status IS SPECIAL-NAMES CRT STATUS PIC 9(4) VALUE 0.
+           88 Exit-Pushed VALUE 27.
+           88 Message-Received VALUE 95.
+           88 Event-Occurred VALUE 96.
+           88 Screen-No-Input-Field VALUE 97.
+           88 Screen-Time-Out VALUE 99.
+      * property-defined variable
+
+      * user-defined variable
+       77 Cust-Screen-Handle
+                  USAGE IS HANDLE OF WINDOW VALUE NULL.
+       77 Times-New-Roman10B
+                  USAGE IS HANDLE OF FONT VALUE NULL.
+       77 CompNameLbl-Size PIC  S9(4)V9(2)
+                  VALUE IS 18.00.
+       77 CUSTOMER-NAME-ENABLED        PIC  9
+                  VALUE IS 0.
+       77 CompNameEF-Size  PIC  S9(4)V9(2)
+                  VALUE IS 18.00.
+       77 WS-CUSTOMER-NAME PIC  X(20).
+       77 CompAddrLbl-Size PIC  S9(4)V9(2)
+                  VALUE IS 18.00.
+       77 CompAddrEF1-Size PIC  S9(4)V9(2)
+                  VALUE IS 18.00.
+       77 WS-CUSTOMER-ADDR-1           PIC  X(20).
+       77 CompAddrEF2-Size PIC  S9(4)V9(2)
+                  VALUE IS 18.00.
+       77 WS-CUSTOMER-ADDR-2           PIC  X(20).
+       77 CompAddrEF3-Size PIC  S9(4)V9(2)
+                  VALUE IS 18.00.
+       77 WS-CUSTOMER-ADDR-3           PIC  X(20).
+       77 CompanyContactLbl-Col        PIC  S9(4)V9(2)
+                  VALUE IS 25.70.
+       77 CompContactLbl-Size          PIC  S9(4)V9(2)
+                  VALUE IS 20.40.
+       77 CompanyContactCombo-Col      PIC  S9(4)V9(2)
+                  VALUE IS 25.70.
+       77 CompContactCombo-Size        PIC  S9(4)V9(2)
+                  VALUE IS 20.40.
+       01 .
+           03 CUSTOMER-CM-6-Container-Item.
+               05      PIC  X(20)
+                          VALUE IS "Drake Coker".
+               05      PIC  X(20)
+                          VALUE IS "Bob Cavanagh".
+               05      PIC  X(20)
+                          VALUE IS "Eddie Glorioso".
+               05      PIC  X(20)
+                          VALUE IS "Eduardo Mendiola".
+               05      PIC  X(20)
+                          VALUE IS "Paul Lawrence".
+               05      PIC  X(20)
+                          VALUE IS "Mike Riley".
+               05      PIC  X(20)
+                          VALUE IS "David Thompson".
+           78 CUSTOMER-CM-6-Container-Num VALUE IS 7. 
+           03 CUSTOMER-CM-6-Container REDEFINES 
+           CUSTOMER-CM-6-Container-Item  PIC  X(20)
+                      OCCURS 7 TIMES
+                      INDEXED  CUSTOMER-CM-6-Container-Idx.
+       77 WS-CUSTOMER-CONTACT          PIC  X(20).
+       77 ContactNumLbl-Col            PIC  S9(4)V9(2)
+                  VALUE IS 25.80.
+       77 ContactNumLbl-Size           PIC  S9(4)V9(2)
+                  VALUE IS 20.40.
+       77 CustPhone-Col    PIC  S9(4)V9(2)
+                  VALUE IS 25.80.
+       77 CustPhone-Size   PIC  S9(4)V9(2)
+                  VALUE IS 20.40.
+       77 WS-CUSTOMER-PHONE            PIC  X(20).
+       77 URLLbl-Size      PIC  S9(4)V9(2)
+                  VALUE IS 37.40.
+       77 default-font
+                  USAGE IS HANDLE OF FONT DEFAULT-FONT.
+       77 UrlEF-Size       PIC  S9(4)V9(2)
+                  VALUE IS 43.80.
+       77 UrlEf-Value      PIC  X(200).
+       77 smpl-arrows-bmp  PIC  S9(6)
+                  USAGE IS COMP-4
+                  VALUE IS 0.
+       77 GoBackBtn-Col    PIC  S9(4)V9(2)
+                  VALUE IS 41.10.
+       77 GoForwardBtn-Col PIC  S9(4)V9(2)
+                  VALUE IS 43.60.
+       77 WbStatus-Line    PIC  S9(4)V9(2)
+                  VALUE IS 40.20.
+       77 WbStatLbl-Size   PIC  S9(4)V9(2)
+                  VALUE IS 43.80.
+       77 wb1-status       PIC  X(100)
+                  VALUE IS " ".
+       77 WB1-Lines        PIC  S9(4)V9(2)
+                  VALUE IS 13.00.
+       77 WB1-Size         PIC  S9(4)V9(2)
+                  VALUE IS 43.80.
+       77 Wb-1-Url         PIC  X(100)
+                  VALUE IS "https://www.rocketsoftware.com".
+       77 Cust-Scree-Tb-1-Handle
+                  USAGE IS HANDLE OF WINDOW VALUE NULL.
+       77 FILE-STATUS      PIC  X(2).
+           88 Valid-CUSTOMER-FILE VALUE IS "00" THRU "09". 
+       77 START-DIR        PIC  X(80).
+       77 AVI-FILES        PIC  X(80)
+                  VALUE IS "AVI FILES (*.AVI)|*.AVI".
+       77 HTML-FILES       PIC  X(80)
+                  VALUE IS "HTML FILES (*.HTM) |*.HTM".
+       77 CURRENT-SCREEN-LINES         PIC  S999V99.
+       77 CURRENT-SCREEN-SIZE          PIC  S999V99.
+       77 MB-VALUE         PIC  9
+                  VALUE IS 0.
+       77 WB-1-TITLE       PIC  X(100).
+       77 INSTALL-DIRECTORY            PIC  X(64)
+                  VALUE IS SPACES.
+       77 PATH-LENGTH      PIC  9(3)
+                  VALUE IS 0.
+       77 CTR  PIC  9(3)
+                  VALUE IS 0.
+       78 OPENSAVE-SUPPORTED VALUE IS 1. 
+       78 OPENSAVE-OPEN-BOX VALUE IS 2. 
+       78 OPENSAVE-SAVE-BOX VALUE IS 3. 
+       78 OPENSAVE-BROWSE-FOLDER VALUE IS 4. 
+       78 OPNSAVERR-UNSUPPORTED VALUE IS 0. 
+       78 OPNSAVERR-CANCELLED VALUE IS -1. 
+       78 OPNSAVERR-NO-MEMORY VALUE IS -2. 
+       78 OPNSAVERR-NAME-TOO-LARGE VALUE IS -3. 
+       01 OPENSAVE-DATA.
+           03 OPNSAV-FILENAME  PIC  X(256).
+           03 OPNSAV-FLAGS     PIC  9(4)
+                      USAGE IS COMP-X
+                      VALUE IS 0.
+           03 OPNSAV-DEFAULT-EXT           PIC  X(12).
+           03 OPNSAV-TITLE     PIC  X(80).
+           03 OPNSAV-FILTERS   PIC  X(512).
+           03 OPNSAV-DEFAULT-FILTER        PIC  9(4)
+                      USAGE IS COMP-X
+                      VALUE IS 0.
+           03 OPNSAV-DEFAULT-DIR           PIC  X(128).
+           03 OPNSAV-BASENAME  PIC  X(128).
+      * The following flag values can be added together when
+      * using the OPEN-BOX or SAVE-BOX opcodes
+      *
+       78 OPENSAVE-OVERWRITEPROMPT VALUE IS 2. 
+       78 OPENSAVE-PATHMUSTEXIST VALUE IS 2048. 
+       78 OPENSAVE-FILEMUSTEXIST VALUE IS 4096. 
+       78 OPENSAVE-CREATEPROMPT VALUE IS 8192. 
+       78 OPENSAVE-NOREADONLYRETURN VALUE IS 32768. 
+      * The following flag values can be added together when
+      * using the opcode OPENSAVE-BROWSE-FOLDER
+      *
+       78 OPENSAVE-BROWSE-DONTGOBELOWDOMAIN VALUE IS 2. 
+       78 OPENSAVE-BROWSE-RETURNFSANCESTORS VALUE IS 8. 
+       78 OPENSAVE-BROWSE-EDITBOX VALUE IS 16. 
+       78 OPENSAVE-BROWSE-NEWDIALOGSTYLE VALUE IS 64. 
+       78 OPENSAVE-BROWSE-BROWSEINCLUDEURLS VALUE IS 128. 
+       78 OPENSAVE-BROWSE-UAHINT VALUE IS 256. 
+       78 OPENSAVE-BROWSE-NONEWFOLDERBUTTON VALUE IS 512. 
+       78 OPENSAVE-BROWSE-BROWSEFORCOMPUTER VALUE IS 4096. 
+       78 OPENSAVE-BROWSE-BROWSEFORPRINTER VALUE IS 8192. 
+       78 OPENSAVE-BROWSE-BROWSEINCLUDEFILES VALUE IS 16384. 
+       77 fd1-status       PIC  X(2).
+           88 Valid-FD1 VALUE IS "00" THRU "09". 
+       77 fd2-status       PIC  X(2).
+           88 Valid-FD2 VALUE IS "00" THRU "09". 
+       77 fd3-status       PIC  X(2).
+           88 Valid-FD3 VALUE IS "00" THRU "09". 

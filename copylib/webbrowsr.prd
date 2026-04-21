@@ -1,0 +1,244 @@
+      * webbrowsr.prd
+      * webbrowsr.prd is generated from C:\Users\Public\Documents\Rocket Software\extend 11.0.0\sample\acubench\webbrowsr.Psf
+      * This is a generated file. DO NOT modify this file directly.
+
+       Acu-Initial-Routine.
+      *    Before-Init
+      * get system information
+           ACCEPT System-Information FROM System-Info
+      * get terminal information
+           ACCEPT Terminal-Abilities FROM Terminal-Info
+      * set font
+           PERFORM Acu-Init-Font
+      * load bitmap
+           PERFORM Acu-Init-Bmp
+      * open file
+           PERFORM Acu-Open-Files
+      *    After-Init
+           .
+
+       Acu-Init-Font.
+      * font setting
+           INITIALIZE WFONT-DATA Times-New-Roman10B
+           MOVE 10 TO WFONT-SIZE
+           MOVE "Times New Roman" TO WFONT-NAME
+           SET WFCHARSET-DEFAULT TO TRUE
+           SET WFONT-BOLD TO TRUE
+           SET WFONT-ITALIC TO FALSE
+           SET WFONT-UNDERLINE TO FALSE
+           SET WFONT-STRIKEOUT TO FALSE
+           SET WFFAMILY-DONT-CARE TO TRUE
+           SET WFONT-FIXED-PITCH TO FALSE
+           CALL "W$FONT" USING WFONT-GET-FONT, Times-New-Roman10B, 
+              WFONT-DATA
+           .
+
+       Acu-Init-Bmp.
+      * bitmap loading
+           COPY RESOURCE "smpl-arrows.bmp".
+           CALL "W$BITMAP" USING WBITMAP-LOAD "smpl-arrows.bmp", GIVING 
+              smpl-arrows-bmp
+           .
+
+       Acu-Exit-Rtn.
+      * destroy font
+           PERFORM Acu-Exit-Font
+      * destroy bitmap
+           PERFORM Acu-Exit-Bmp
+           PERFORM Acu-Close-Files
+      *    After-Program
+           EXIT PROGRAM
+           STOP RUN
+           .
+       Acu-Exit-Font.
+      * font destroy
+           IF Times-New-Roman10B NOT = NULL
+              DESTROY Times-New-Roman10B
+              SET Times-New-Roman10B TO NULL
+           END-IF
+           .
+
+       Acu-Exit-Bmp.
+      * bitmap destroy
+           IF smpl-arrows-bmp NOT = 0
+              CALL "W$BITMAP" USING WBITMAP-DESTROY smpl-arrows-bmp
+              MOVE 0 TO smpl-arrows-bmp
+           END-IF
+           .
+
+       Acu-Open-Files.
+      *    Before-Open
+           PERFORM Acu-Open-CUSTOMER-FILE
+      *    After-Open
+           .
+
+       Acu-Open-CUSTOMER-FILE.
+      *    Before-Open
+           OPEN I-O CUSTOMER-FILE 
+           IF FILE-STATUS = "35"
+              OPEN OUTPUT CUSTOMER-FILE
+              IF FILE-STATUS(1:1) = "0"
+                 CLOSE CUSTOMER-FILE
+                 OPEN I-O CUSTOMER-FILE
+              END-IF
+           END-IF
+           IF NOT FILE-STATUS(1:1) = "0"
+              PERFORM Acu-Extended-File-Status
+              GO TO Acu-Exit-Rtn
+           END-IF
+      *    After-Open
+           .
+
+       Acu-Cust-Screen-Routine.
+      *    Before-Routine
+           PERFORM Acu-Cust-Screen-Scrn
+           PERFORM Acu-Cust-Screen-Proc
+      *    After-Routine
+           .
+
+       Acu-Cust-Screen-Scrn.
+           PERFORM Acu-Cust-Screen-Create-Win
+           PERFORM Acu-Cust-Screen-Init-Data
+           .
+
+       Acu-Cust-Screen-Create-Win.
+      *    Before-Create
+      * display screen
+              DISPLAY Standard GRAPHICAL WINDOW
+                 LINES 43.80, SIZE 47.10, CELL HEIGHT 10, 
+                 CELL WIDTH 10, AUTO-MINIMIZE, COLOR IS 65793, 
+                 LABEL-OFFSET 0, LINK TO THREAD, MODELESS, RESIZABLE, 
+                 NO SCROLL, WITH SYSTEM MENU, 
+                 TITLE "Web Browser Sample ", TITLE-BAR, NO WRAP, 
+                 EVENT PROCEDURE Cust-Screen-Event-Proc, 
+                 HANDLE IS Cust-Screen-Handle
+      * toolbar
+           DISPLAY TOOL-BAR CELL HEIGHT 10, CELL WIDTH 10, 
+              LINES 3.20 CELLS, 
+              HANDLE IS Cust-Scree-Tb-1-Handle
+           DISPLAY Cust-Scree-Tb-1 UPON Cust-Scree-Tb-1-Handle
+           DISPLAY Cust-Screen UPON Cust-Screen-Handle
+           PERFORM Cust-Screen-Aft-Create
+           .
+
+       Acu-Cust-Screen-Init-Data.
+      *    Before-Initdata
+           PERFORM Acu-CompanyContact-Combo-Content
+           PERFORM Cust-Screen-Aft-Initdata
+           .
+      * Cust-Screen
+       Acu-Cust-Screen-Proc.
+           PERFORM UNTIL Exit-Pushed
+              ACCEPT Cust-Screen  
+                 ON EXCEPTION PERFORM Acu-Cust-Screen-Evaluate-Func
+              END-ACCEPT
+           END-PERFORM
+           DESTROY Cust-Screen-Handle
+           INITIALIZE Key-Status
+           .
+
+      * CompanyContact-Combo
+       Acu-CompanyContact-Combo-Content.
+           MODIFY CompanyContact-Combo, MASS-UPDATE = 1, RESET-LIST = 1
+           MODIFY CompanyContact-Combo, ITEM-TO-ADD = TABLE 
+              CUSTOMER-CM-6-Container
+           MODIFY CompanyContact-Combo, MASS-UPDATE = 0
+           MODIFY CompanyContact-Combo, VALUE WS-CUSTOMER-CONTACT
+           .
+
+      * Cust-Screen
+       Acu-Cust-Screen-Evaluate-Func.
+           EVALUATE TRUE
+              WHEN Exit-Pushed
+                 PERFORM Acu-Cust-Screen-Exit
+              WHEN Event-Occurred
+                 IF Event-Type = Cmd-Close
+                    PERFORM Acu-Cust-Screen-Exit
+                 END-IF
+      * GoBack-Pb Link To
+              WHEN Key-Status = 11
+                 PERFORM GoBack-Pb-Link
+      * GoForward-Pb Link To
+              WHEN Key-Status = 12
+                 PERFORM GoForward-Pb-Link
+      * FirstRec-Pb Link To
+              WHEN Key-Status = 1
+                 PERFORM FirstRec-Pb-Link
+      * PrevRec-Pb Link To
+              WHEN Key-Status = 2
+                 PERFORM PrevRec-Pb-Link
+      * NextRec-Pb Link To
+              WHEN Key-Status = 3
+                 PERFORM NextRec-Pb-Link
+      * LastRec-Pb Link To
+              WHEN Key-Status = 4
+                 PERFORM LastRec-Pb-Link
+      * NewRec-Pb Link To
+              WHEN Key-Status = 5
+                 PERFORM NewRec-Pb-Link
+      * WriteRec-Pb Link To
+              WHEN Key-Status = 7
+                 PERFORM WriteRec-Pb-Link
+      * DeleteRec-Pb Link To
+              WHEN Key-Status = 6
+                 PERFORM DeleteRec-Pb-Link
+      * Email-Pb Link To
+              WHEN Key-Status = 8
+                 PERFORM Email-Pb-Link
+      * RefreshBrowser-Pb Link To
+              WHEN Key-Status = 9
+                 PERFORM RefreshBrowser-Pb-Link
+      * ShowAVI-Pb Link To
+              WHEN Key-Status = 10
+                 PERFORM ShowAVI-Pb-Link
+      * ShowHTML-Pb Link To
+              WHEN Key-Status = 14
+                 PERFORM ShowHTML-Pb-Link
+           END-EVALUATE
+           MOVE 1 TO Accept-Control
+           .
+
+       Acu-Close-Files.
+      *    Before-Close
+           CLOSE CUSTOMER-FILE
+      *    After-Close
+           .
+
+      * Customer
+
+       Acu-Customer-Read.
+           READ CUSTOMER-FILE WITH NO LOCK 
+              KEY CUSTOMER-NAME OF CUSTOMER-FILE
+           PERFORM Customer-After-Read
+           .
+
+       Acu-Customer-Read-Next.
+           READ CUSTOMER-FILE NEXT WITH NO LOCK
+           PERFORM Customer-After-Read
+           .
+
+       Acu-Customer-Read-Prev.
+           READ CUSTOMER-FILE PREVIOUS WITH NO LOCK
+           PERFORM Customer-After-Read
+           .
+
+       Acu-Customer-Rec-Write.
+           WRITE CUSTOMER-RECORD
+           .
+
+       Acu-Customer-Rec-Rewrite.
+           REWRITE CUSTOMER-RECORD
+           .
+
+       Acu-Customer-Rec-Delete.
+           DELETE CUSTOMER-FILE
+           .
+
+       Acu-Customer-Delete.
+           DELETE FILE CUSTOMER-FILE
+           .
+
+       Acu-Cust-Screen-Exit.
+           SET Exit-Pushed TO TRUE
+           .
+
