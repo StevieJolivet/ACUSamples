@@ -1,0 +1,2970 @@
+; CASEMaker AcuBench Program Structure File, Version 11.0
+; WARNING: DO NOT MODIFY THIS FILE!
+
+[PROGRAM_CONTENT]
+QUIT_CONFIRM=0
+MAIN_SCREEN_NAME=Cust-Screen
+BEFORE_PROGRAM=Before-Program
+
+{{@DESCRIPTION:
+
+@}}
+
+[WORKING_STORAGE]
+m_nType=1
+m_strName=Working Storage
+m_bBlockRecords=1
+m_bRecordFixed=1
+m_bStandard=1
+{{@FD_m_strDescriptionWK
+
+@}}
+[FDITEM0_WK]
+m_nType=10
+m_strName=Cust-Screen-Handle
+m_nUsage=24
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM0_WK
+
+@}}
+[FDITEM1_WK]
+m_nType=10
+m_strName=Times-New-Roman10B
+m_nUsage=26
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM1_WK
+
+@}}
+[FDITEM2_WK]
+m_nType=10
+m_strName=CompNameLbl-Size
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=18.00
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM2_WK
+
+@}}
+[FDITEM3_WK]
+m_nType=10
+m_strName=CUSTOMER-NAME-ENABLED
+m_strRawPic=9
+m_strPic=9
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM3_WK
+
+@}}
+[FDITEM4_WK]
+m_nType=10
+m_strName=CompNameEF-Size
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=18.00
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM4_WK
+
+@}}
+[FDITEM5_WK]
+m_nType=10
+m_strName=WS-CUSTOMER-NAME
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM5_WK
+
+@}}
+[FDITEM6_WK]
+m_nType=10
+m_strName=CompAddrLbl-Size
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=18.00
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM6_WK
+
+@}}
+[FDITEM7_WK]
+m_nType=10
+m_strName=CompAddrEF1-Size
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=18.00
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM7_WK
+
+@}}
+[FDITEM8_WK]
+m_nType=10
+m_strName=WS-CUSTOMER-ADDR-1
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM8_WK
+
+@}}
+[FDITEM9_WK]
+m_nType=10
+m_strName=CompAddrEF2-Size
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=18.00
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM9_WK
+
+@}}
+[FDITEM10_WK]
+m_nType=10
+m_strName=WS-CUSTOMER-ADDR-2
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM10_WK
+
+@}}
+[FDITEM11_WK]
+m_nType=10
+m_strName=CompAddrEF3-Size
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=18.00
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM11_WK
+
+@}}
+[FDITEM12_WK]
+m_nType=10
+m_strName=WS-CUSTOMER-ADDR-3
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM12_WK
+
+@}}
+[FDITEM13_WK]
+m_nType=10
+m_strName=CompanyContactLbl-Col
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=25.70
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM13_WK
+
+@}}
+[FDITEM14_WK]
+m_nType=10
+m_strName=CompContactLbl-Size
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=20.40
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM14_WK
+
+@}}
+[FDITEM15_WK]
+m_nType=10
+m_strName=CompanyContactCombo-Col
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=25.70
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM15_WK
+
+@}}
+[FDITEM16_WK]
+m_nType=10
+m_strName=CompContactCombo-Size
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=20.40
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM16_WK
+
+@}}
+[FDITEM17_WK]
+m_nType=10
+m_nItemLevel=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM17_WK
+
+@}}
+[FDITEM18_WK]
+m_nType=10
+m_strName=CUSTOMER-CM-6-Container-Item
+m_nItemLevel=3
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM18_WK
+
+@}}
+[FDITEM19_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Drake Coker"
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM19_WK
+
+@}}
+[FDITEM20_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Bob Cavanagh"
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM20_WK
+
+@}}
+[FDITEM21_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Eddie Glorioso"
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM21_WK
+
+@}}
+[FDITEM22_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Eduardo Mendiola"
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM22_WK
+
+@}}
+[FDITEM23_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Paul Lawrence"
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM23_WK
+
+@}}
+[FDITEM24_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Mike Riley"
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM24_WK
+
+@}}
+[FDITEM25_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="David Thompson"
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM25_WK
+
+@}}
+[FDITEM26_WK]
+m_nType=10
+m_strName=CUSTOMER-CM-6-Container-Num
+m_strDefaultValue=7
+m_nItemLevel=78
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM26_WK
+
+@}}
+[FDITEM27_WK]
+m_nType=10
+m_strName=CUSTOMER-CM-6-Container
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_nItemLevel=3
+m_bRedefines=1
+m_strRedefines=CUSTOMER-CM-6-Container-Item
+m_nSync=-1
+m_bOccurs=1
+m_bFixed=1
+m_strRawSize=7
+m_nSize=7
+m_bIndexed=1
+m_lstIndex=CUSTOMER-CM-6-Container-Idx,
+{{@DataItem_m_strDescriptionFDITEM27_WK
+
+@}}
+[FDITEM28_WK]
+m_nType=10
+m_strName=WS-CUSTOMER-CONTACT
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM28_WK
+
+@}}
+[FDITEM29_WK]
+m_nType=10
+m_strName=ContactNumLbl-Col
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=25.80
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM29_WK
+
+@}}
+[FDITEM30_WK]
+m_nType=10
+m_strName=ContactNumLbl-Size
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=20.40
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM30_WK
+
+@}}
+[FDITEM31_WK]
+m_nType=10
+m_strName=CustPhone-Col
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=25.80
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM31_WK
+
+@}}
+[FDITEM32_WK]
+m_nType=10
+m_strName=CustPhone-Size
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=20.40
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM32_WK
+
+@}}
+[FDITEM33_WK]
+m_nType=10
+m_strName=WS-CUSTOMER-PHONE
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM33_WK
+
+@}}
+[FDITEM34_WK]
+m_nType=10
+m_strName=URLLbl-Size
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=37.40
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM34_WK
+
+@}}
+[FDITEM35_WK]
+m_nType=10
+m_strName=default-font
+m_nUsage=38
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM35_WK
+
+@}}
+[FDITEM36_WK]
+m_nType=10
+m_strName=UrlEF-Size
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=43.80
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM36_WK
+
+@}}
+[FDITEM37_WK]
+m_nType=10
+m_strName=UrlEf-Value
+m_strRawPic=X(200)
+m_strPic=X(200)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM37_WK
+
+@}}
+[FDITEM38_WK]
+m_nType=10
+m_strName=smpl-arrows-bmp
+m_strRawPic=S9(6)
+m_strPic=S9(6)
+m_nUsage=5
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM38_WK
+
+@}}
+[FDITEM39_WK]
+m_nType=10
+m_strName=GoBackBtn-Col
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=41.10
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM39_WK
+
+@}}
+[FDITEM40_WK]
+m_nType=10
+m_strName=GoForwardBtn-Col
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=43.60
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM40_WK
+
+@}}
+[FDITEM41_WK]
+m_nType=10
+m_strName=WbStatus-Line
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=40.20
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM41_WK
+
+@}}
+[FDITEM42_WK]
+m_nType=10
+m_strName=WbStatLbl-Size
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=43.80
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM42_WK
+
+@}}
+[FDITEM43_WK]
+m_nType=10
+m_strName=wb1-status
+m_strRawPic=X(100)
+m_strPic=X(100)
+m_strDefaultValue=" "
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM43_WK
+
+@}}
+[FDITEM44_WK]
+m_nType=10
+m_strName=WB1-Lines
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=13.00
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM44_WK
+
+@}}
+[FDITEM45_WK]
+m_nType=10
+m_strName=WB1-Size
+m_strRawPic=S9(4)V9(2)
+m_strPic=S9(4)V9(2)
+m_strDefaultValue=43.80
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM45_WK
+
+@}}
+[FDITEM46_WK]
+m_nType=10
+m_strName=Wb-1-Url
+m_strRawPic=X(100)
+m_strPic=X(100)
+m_strDefaultValue="https://www.rocketsoftware.com"
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM46_WK
+
+@}}
+[FDITEM47_WK]
+m_nType=10
+m_strName=Cust-Scree-Tb-1-Handle
+m_nUsage=24
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM47_WK
+
+@}}
+[FDITEM48_WK]
+m_nType=11
+m_strName=FILE-STATUS
+m_strRawPic=X(2)
+m_strPic=X(2)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM48_WK
+
+@}}
+[FDITEM49_WK]
+m_nType=11
+m_strName=Valid-CUSTOMER-FILE
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue="00" THRU "09"
+{{@DataItem_m_strDescriptionFDITEM49_WK
+
+@}}
+[FDITEM50_WK]
+m_strName=START-DIR
+m_strRawPic=X(80)
+m_strPic=X(80)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM50_WK
+
+@}}
+[FDITEM51_WK]
+m_strName=AVI-FILES
+m_strRawPic=X(80)
+m_strPic=X(80)
+m_strDefaultValue="AVI FILES (*.AVI)|*.AVI"
+m_nItemLevel=77
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM51_WK
+
+@}}
+[FDITEM52_WK]
+m_strName=HTML-FILES
+m_strRawPic=X(80)
+m_strPic=X(80)
+m_strDefaultValue="HTML FILES (*.HTM) |*.HTM"
+m_nItemLevel=77
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM52_WK
+
+@}}
+[FDITEM53_WK]
+m_strName=CURRENT-SCREEN-LINES
+m_strRawPic=S999V99
+m_strPic=S999V99
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM53_WK
+
+@}}
+[FDITEM54_WK]
+m_strName=CURRENT-SCREEN-SIZE
+m_strRawPic=S999V99
+m_strPic=S999V99
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM54_WK
+
+@}}
+[FDITEM55_WK]
+m_strName=MB-VALUE
+m_strRawPic=9
+m_strPic=9
+m_strDefaultValue=0
+m_nItemLevel=77
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM55_WK
+
+@}}
+[FDITEM56_WK]
+m_strName=WB-1-TITLE
+m_strRawPic=X(100)
+m_strPic=X(100)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM56_WK
+
+@}}
+[FDITEM57_WK]
+m_strName=INSTALL-DIRECTORY
+m_strRawPic=X(64)
+m_strPic=X(64)
+m_strDefaultValue=SPACES
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM57_WK
+
+@}}
+[FDITEM58_WK]
+m_strName=PATH-LENGTH
+m_strRawPic=9(3)
+m_strPic=9(3)
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM58_WK
+
+@}}
+[FDITEM59_WK]
+m_strName=CTR
+m_strRawPic=9(3)
+m_strPic=9(3)
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM59_WK
+
+@}}
+[FDITEM60_WK]
+m_strName=OPENSAVE-SUPPORTED
+m_strDefaultValue=1
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM60_WK
+
+@}}
+[FDITEM61_WK]
+m_strName=OPENSAVE-OPEN-BOX
+m_strDefaultValue=2
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM61_WK
+
+@}}
+[FDITEM62_WK]
+m_strName=OPENSAVE-SAVE-BOX
+m_strDefaultValue=3
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM62_WK
+
+@}}
+[FDITEM63_WK]
+m_strName=OPENSAVE-BROWSE-FOLDER
+m_strDefaultValue=4
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM63_WK
+
+@}}
+[FDITEM64_WK]
+m_strName=OPNSAVERR-UNSUPPORTED
+m_strDefaultValue=0
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM64_WK
+
+@}}
+[FDITEM65_WK]
+m_strName=OPNSAVERR-CANCELLED
+m_strDefaultValue=-1
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM65_WK
+
+@}}
+[FDITEM66_WK]
+m_strName=OPNSAVERR-NO-MEMORY
+m_strDefaultValue=-2
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM66_WK
+
+@}}
+[FDITEM67_WK]
+m_strName=OPNSAVERR-NAME-TOO-LARGE
+m_strDefaultValue=-3
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM67_WK
+
+@}}
+[FDITEM68_WK]
+m_strName=OPENSAVE-DATA
+m_nItemLevel=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM68_WK
+
+@}}
+[FDITEM69_WK]
+m_strName=OPNSAV-FILENAME
+m_strRawPic=X(256)
+m_strPic=X(256)
+m_nItemLevel=3
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM69_WK
+
+@}}
+[FDITEM70_WK]
+m_strName=OPNSAV-FLAGS
+m_strRawPic=9(4)
+m_strPic=9(4)
+m_nUsage=8
+m_strDefaultValue=0
+m_nItemLevel=3
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM70_WK
+
+@}}
+[FDITEM71_WK]
+m_strName=OPNSAV-DEFAULT-EXT
+m_strRawPic=X(12)
+m_strPic=X(12)
+m_nItemLevel=3
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM71_WK
+
+@}}
+[FDITEM72_WK]
+m_strName=OPNSAV-TITLE
+m_strRawPic=X(80)
+m_strPic=X(80)
+m_nItemLevel=3
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM72_WK
+
+@}}
+[FDITEM73_WK]
+m_strName=OPNSAV-FILTERS
+m_strRawPic=X(512)
+m_strPic=X(512)
+m_nItemLevel=3
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM73_WK
+
+@}}
+[FDITEM74_WK]
+m_strName=OPNSAV-DEFAULT-FILTER
+m_strRawPic=9(4)
+m_strPic=9(4)
+m_nUsage=8
+m_strDefaultValue=0
+m_nItemLevel=3
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM74_WK
+
+@}}
+[FDITEM75_WK]
+m_strName=OPNSAV-DEFAULT-DIR
+m_strRawPic=X(128)
+m_strPic=X(128)
+m_nItemLevel=3
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM75_WK
+
+@}}
+[FDITEM76_WK]
+m_strName=OPNSAV-BASENAME
+m_strRawPic=X(128)
+m_strPic=X(128)
+m_nItemLevel=3
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM76_WK
+
+@}}
+[FDITEM77_WK]
+m_strName=OPENSAVE-OVERWRITEPROMPT
+m_strDefaultValue=2
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM77_WK
+ The following flag values can be added together when
+ using the OPEN-BOX or SAVE-BOX opcodes
+
+@}}
+[FDITEM78_WK]
+m_strName=OPENSAVE-PATHMUSTEXIST
+m_strDefaultValue=2048
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM78_WK
+
+@}}
+[FDITEM79_WK]
+m_strName=OPENSAVE-FILEMUSTEXIST
+m_strDefaultValue=4096
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM79_WK
+
+@}}
+[FDITEM80_WK]
+m_strName=OPENSAVE-CREATEPROMPT
+m_strDefaultValue=8192
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM80_WK
+
+@}}
+[FDITEM81_WK]
+m_strName=OPENSAVE-NOREADONLYRETURN
+m_strDefaultValue=32768
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM81_WK
+
+@}}
+[FDITEM82_WK]
+m_strName=OPENSAVE-BROWSE-DONTGOBELOWDOMAIN
+m_strDefaultValue=2
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM82_WK
+ The following flag values can be added together when
+ using the opcode OPENSAVE-BROWSE-FOLDER
+
+@}}
+[FDITEM83_WK]
+m_strName=OPENSAVE-BROWSE-RETURNFSANCESTORS
+m_strDefaultValue=8
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM83_WK
+
+@}}
+[FDITEM84_WK]
+m_strName=OPENSAVE-BROWSE-EDITBOX
+m_strDefaultValue=16
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM84_WK
+
+@}}
+[FDITEM85_WK]
+m_strName=OPENSAVE-BROWSE-NEWDIALOGSTYLE
+m_strDefaultValue=64
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM85_WK
+
+@}}
+[FDITEM86_WK]
+m_strName=OPENSAVE-BROWSE-BROWSEINCLUDEURLS
+m_strDefaultValue=128
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM86_WK
+
+@}}
+[FDITEM87_WK]
+m_strName=OPENSAVE-BROWSE-UAHINT
+m_strDefaultValue=256
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM87_WK
+
+@}}
+[FDITEM88_WK]
+m_strName=OPENSAVE-BROWSE-NONEWFOLDERBUTTON
+m_strDefaultValue=512
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM88_WK
+
+@}}
+[FDITEM89_WK]
+m_strName=OPENSAVE-BROWSE-BROWSEFORCOMPUTER
+m_strDefaultValue=4096
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM89_WK
+
+@}}
+[FDITEM90_WK]
+m_strName=OPENSAVE-BROWSE-BROWSEFORPRINTER
+m_strDefaultValue=8192
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM90_WK
+
+@}}
+[FDITEM91_WK]
+m_nType=1
+m_strName=OPENSAVE-BROWSE-BROWSEINCLUDEFILES
+m_strDefaultValue=16384
+m_nItemLevel=78
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM91_WK
+
+@}}
+[FDITEM92_WK]
+m_nType=11
+m_strName=fd1-status
+m_strRawPic=X(2)
+m_strPic=X(2)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM92_WK
+
+@}}
+[FDITEM93_WK]
+m_nType=11
+m_strName=Valid-FD1
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue="00" THRU "09"
+{{@DataItem_m_strDescriptionFDITEM93_WK
+
+@}}
+[FDITEM94_WK]
+m_nType=11
+m_strName=fd2-status
+m_strRawPic=X(2)
+m_strPic=X(2)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM94_WK
+
+@}}
+[FDITEM95_WK]
+m_nType=11
+m_strName=Valid-FD2
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue="00" THRU "09"
+{{@DataItem_m_strDescriptionFDITEM95_WK
+
+@}}
+[FDITEM96_WK]
+m_nType=11
+m_strName=fd3-status
+m_strRawPic=X(2)
+m_strPic=X(2)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM96_WK
+
+@}}
+[FDITEM97_WK]
+m_nType=11
+m_strName=Valid-FD3
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue="00" THRU "09"
+{{@DataItem_m_strDescriptionFDITEM97_WK
+
+@}}
+
+
+LINKAGE_SECTION
+m_strName=Linkage Section
+{{@FD_m_strDescriptionLK
+
+@}}
+
+
+[DATASET_CONTENT:DS1]
+DATASET_NAME=Customer
+DATA_LAYOUT=CUSTOMER-FILE
+KEY=CUSTOMER-NAME
+EVENT_AFTER_READ=Customer-After-Read
+
+[SEL_LAYOUT_FILE_CONTENT:DATALAYOUT1]
+DATA_LAYOUT=CUSTOMER-FILE
+DECLARATIVES=
+BEFORE_OPEN=
+AFTER_OPEN=
+BEFORE_COMMIT=
+AFTER_COMMIT=
+BEFORE_ROLLBACK=
+AFTER_ROLLBACK=
+BEFORE_DELETEFILE=
+AFTER_DELETEFILE=
+
+[SEL_LAYOUT_FILE_CONTENT:DATALAYOUT1-IO_FUNCTION_CONTENT]
+GENERATE_IO_FUNCTION1=Declaratives
+GENERATE_IO_FUNCTION2=Read File Key Is
+GENERATE_IO_FUNCTION3=Read File Next
+GENERATE_IO_FUNCTION4=Read File Previous
+GENERATE_IO_FUNCTION5=Write
+GENERATE_IO_FUNCTION6=Rewrite
+GENERATE_IO_FUNCTION7=Delete File Record
+GENERATE_IO_FUNCTION8=Delete File
+GENERATE_IO_FUNCTION9=Close File
+
+{{@SCREEN:
+*   Screen Painter Data
+*   Schema 6.0
+*
+BEGIN-SPDATA
+
+GRAPHICAL-SCREEN
+
+Begin Screen Cust-Screen
+   PREFIX            = Cust-Scree
+   LOCK-CONTROL      = FALSE
+   (Name)            = Cust-Screen
+   Absolute Column   = 0
+   Absolute Line     = 0
+   Action            = (None)
+   Auto Minimize     = TRUE
+   Auto Resize       = FALSE
+   Bind To Thread    = FALSE
+   Boxed             = FALSE
+   Cell              = TRUE
+   Cell Height       = 10
+   Cell Measure      = Pixels
+   Cell Width        = 10
+   Color             = 65793
+   Controls Uncropped = FALSE
+   Erase Screen      = FALSE
+   Font              = Default Font
+   Handle Variable   = Cust-Screen-Handle
+   Help ID           = 0
+   Label Offset      = 0
+   Layout Manager    = None
+   Lines             = 43.80
+   Link To Thread    = TRUE
+   Max Lines         = 0.00
+   Max Size          = 0.00
+   Measuring Control = Label
+   Measuring Font    = Default Font
+   Measuring Style   = [None]
+   Min Lines         = 0.00
+   Min Size          = 0.00
+   Modeless          = TRUE
+   No Close          = FALSE
+   Resizable         = TRUE
+   Scroll            = FALSE
+   Size              = 47.10
+   Status Bar        = FALSE
+   System Menu       = TRUE
+   Title             = "Web Browser Sample "
+   Title Bar         = TRUE
+   Unit              = Cells
+   User Gray         = FALSE
+   User White        = FALSE
+   Visible           = 1:TRUE
+   Window Type       = Standard
+   Wrap              = FALSE
+   Event Procedure   = Cust-Screen-Event-Proc
+   Exception Procedure = Cust-Screen-Exception-Proc
+   Ntf-Resized(ex)   = Cust-Screen-Ex-Ntf-Resized
+   After Create      = Cust-Screen-Aft-Create
+   After Initdata    = Cust-Screen-Aft-Initdata
+   Begin Label CompanyName-Label
+      SCREEN-COL        = 2.40
+      SCREEN-LINE       = 2.10
+      LOCK-CONTROL      = FALSE
+      (Name)            = CompanyName-Label
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 1
+      Column            = 2.40
+      Csize             = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Font              = Times New Roman/10/B:0
+      Font Variable     = Times-New-Roman10B
+      Help ID           = 11
+      ID                = 8
+      Justification     = Left
+      Label Offset      = 0
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 2.10
+      Lines             = 2.00
+      No Key Letter     = FALSE
+      Size              = 18.00
+      Size Variable     = CompNameLbl-Size
+      Tab Order         = 1
+      Title             = "Company Name:"
+      Transparent       = FALSE
+      Visible           = 1:TRUE
+   End
+   Begin Entry-Field CompanyName-Ef
+      SCREEN-COL        = 2.50
+      SCREEN-LINE       = 4.30
+      LOCK-CONTROL      = FALSE
+      (Name)            = CompanyName-Ef
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Autofill ID       = 0
+      Autofill Max Lines = 0
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 131329
+      Column            = 2.50
+      Csize             = 0
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Automatic
+      Enable            = 0:FALSE
+      Enable Variable   = CUSTOMER-NAME-ENABLED
+      Font              = Times New Roman/10/B:0
+      Font Variable     = Times-New-Roman10B
+      Help ID           = 4
+      ID                = 2
+      Justification     = Left
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 4.30
+      Lines             = 2.40
+      Max Lines         = 0
+      Max Text          = 0
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 18.00
+      Size Variable     = CompNameEF-Size
+      Style             = Singleline
+      Tab Order         = 2
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Value Picture     = X(20)
+      Value Variable    = WS-CUSTOMER-NAME
+      Visible           = 1:TRUE
+   End
+   Begin Label CompanyAddr-Label
+      SCREEN-COL        = 2.40
+      SCREEN-LINE       = 8.10
+      LOCK-CONTROL      = FALSE
+      (Name)            = CompanyAddr-Label
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 1
+      Column            = 2.40
+      Csize             = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Font              = Times New Roman/10/B:0
+      Font Variable     = Times-New-Roman10B
+      Help ID           = 12
+      ID                = 9
+      Justification     = Left
+      Label Offset      = 0
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 8.10
+      Lines             = 2.00
+      No Key Letter     = FALSE
+      Size              = 18.00
+      Size Variable     = CompAddrLbl-Size
+      Tab Order         = 3
+      Title             = "Company Address:"
+      Transparent       = FALSE
+      Visible           = 1:TRUE
+   End
+   Begin Entry-Field Addr1-Ef
+      SCREEN-COL        = 2.40
+      SCREEN-LINE       = 10.40
+      LOCK-CONTROL      = FALSE
+      (Name)            = Addr1-Ef
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Autofill ID       = 0
+      Autofill Max Lines = 0
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 131329
+      Column            = 2.40
+      Csize             = 0
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Font              = Times New Roman/10/B:0
+      Font Variable     = Times-New-Roman10B
+      Help ID           = 5
+      ID                = 3
+      Justification     = Left
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 10.40
+      Lines             = 2.40
+      Max Lines         = 0
+      Max Text          = 0
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 18.00
+      Size Variable     = CompAddrEF1-Size
+      Style             = Singleline
+      Tab Order         = 4
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Value Picture     = X(20)
+      Value Variable    = WS-CUSTOMER-ADDR-1
+      Visible           = 1:TRUE
+   End
+   Begin Entry-Field Addr2-Ef
+      SCREEN-COL        = 2.40
+      SCREEN-LINE       = 13.20
+      LOCK-CONTROL      = FALSE
+      (Name)            = Addr2-Ef
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Autofill ID       = 0
+      Autofill Max Lines = 0
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 131329
+      Column            = 2.40
+      Csize             = 0
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Font              = Times New Roman/10/B:0
+      Font Variable     = Times-New-Roman10B
+      Help ID           = 7
+      ID                = 4
+      Justification     = Left
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 13.20
+      Lines             = 2.40
+      Max Lines         = 0
+      Max Text          = 0
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 18.00
+      Size Variable     = CompAddrEF2-Size
+      Style             = Singleline
+      Tab Order         = 5
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Value Picture     = X(20)
+      Value Variable    = WS-CUSTOMER-ADDR-2
+      Visible           = 1:TRUE
+   End
+   Begin Entry-Field Addr3-Ef
+      SCREEN-COL        = 2.40
+      SCREEN-LINE       = 16.40
+      LOCK-CONTROL      = FALSE
+      (Name)            = Addr3-Ef
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Autofill ID       = 0
+      Autofill Max Lines = 0
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 131329
+      Column            = 2.40
+      Csize             = 0
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Font              = Times New Roman/10/B:0
+      Font Variable     = Times-New-Roman10B
+      Help ID           = 10
+      ID                = 7
+      Justification     = Left
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 16.40
+      Lines             = 2.40
+      Max Lines         = 0
+      Max Text          = 0
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 18.00
+      Size Variable     = CompAddrEF3-Size
+      Style             = Singleline
+      Tab Order         = 6
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Value Picture     = X(20)
+      Value Variable    = WS-CUSTOMER-ADDR-3
+      Visible           = 1:TRUE
+   End
+   Begin Label CompanyContact-Label
+      SCREEN-COL        = 25.70
+      SCREEN-LINE       = 2.10
+      LOCK-CONTROL      = FALSE
+      (Name)            = CompanyContact-Label
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 1
+      Column            = 25.70
+      Column Variable   = CompanyContactLbl-Col
+      Csize             = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Font              = Times New Roman/10/B:0
+      Font Variable     = Times-New-Roman10B
+      Help ID           = 13
+      ID                = 5
+      Justification     = Left
+      Label Offset      = 0
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 2.10
+      Lines             = 2.00
+      No Key Letter     = FALSE
+      Size              = 20.40
+      Size Variable     = CompContactLbl-Size
+      Tab Order         = 7
+      Title             = "Company Contact:"
+      Transparent       = FALSE
+      Visible           = 1:TRUE
+   End
+   Begin Combo-Box CompanyContact-Combo
+      SCREEN-COL        = 25.70
+      SCREEN-LINE       = 4.30
+      LOCK-CONTROL      = FALSE
+      (Name)            = CompanyContact-Combo
+      Auto load         = 0
+      Auto load ReadDirection = next
+      Auto load StartDirection = >=
+      Auto load StartValue = low-value
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 65793
+      Column            = 25.70
+      Column Variable   = CompanyContactCombo-Col
+      Csize             = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Exception Value   = 0
+      Font              = Times New Roman/10/B:0
+      Font Variable     = Times-New-Roman10B
+      Help ID           = 14
+      ID                = 6
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 4.30
+      Lines             = 8.10
+      Mass Update       = 0:Fast-Update
+      Max Text          = 0
+      No Tab            = FALSE
+      Notify DblClick   = FALSE
+      Notify SelChange  = FALSE
+      Size              = 20.40
+      Size Variable     = CompContactCombo-Size
+      Style             = Drop Down
+      Tab Order         = 8
+      Termination Value = 0
+      Unsorted          = TRUE
+      Value             = ( "Drake Coker", "Bob Cavanagh", "Eddie Glorioso", "Eduardo Mendiola", "Paul Lawrence", "Mike Riley", "David Thompson" )
+      Value Container   = CUSTOMER-CM-6-Container
+      Value Picture     = X(20)
+      Value Variable    = WS-CUSTOMER-CONTACT
+      Visible           = 1:TRUE
+   End
+   Begin Label ContactNum-Label
+      SCREEN-COL        = 25.80
+      SCREEN-LINE       = 8.10
+      LOCK-CONTROL      = FALSE
+      (Name)            = ContactNum-Label
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 1
+      Column            = 25.80
+      Column Variable   = ContactNumLbl-Col
+      Csize             = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Font              = Times New Roman/10/B:0
+      Font Variable     = Times-New-Roman10B
+      Help ID           = 17
+      ID                = 10
+      Justification     = Left
+      Label Offset      = 0
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 8.10
+      Lines             = 2.00
+      No Key Letter     = FALSE
+      Size              = 20.40
+      Size Variable     = ContactNumLbl-Size
+      Tab Order         = 9
+      Title             = "Contact Number"
+      Transparent       = FALSE
+      Visible           = 1:TRUE
+   End
+   Begin Entry-Field Customer-Phone-EF
+      SCREEN-COL        = 25.80
+      SCREEN-LINE       = 10.40
+      LOCK-CONTROL      = FALSE
+      (Name)            = Customer-Phone-EF
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Autofill ID       = 0
+      Autofill Max Lines = 0
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 131329
+      Column            = 25.80
+      Column Variable   = CustPhone-Col
+      Csize             = 0
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Font              = Times New Roman/10/B:0
+      Font Variable     = Times-New-Roman10B
+      Help ID           = 19
+      ID                = 13
+      Justification     = Left
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 10.40
+      Lines             = 2.40
+      Max Lines         = 0
+      Max Text          = 0
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 20.40
+      Size Variable     = CustPhone-Size
+      Style             = Singleline
+      Tab Order         = 10
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Value Picture     = X(20)
+      Value Variable    = WS-CUSTOMER-PHONE
+      Visible           = 1:TRUE
+   End
+   Begin Label Url-Label
+      SCREEN-COL        = 2.50
+      SCREEN-LINE       = 20.00
+      LOCK-CONTROL      = FALSE
+      (Name)            = Url-Label
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 1
+      Column            = 2.50
+      Csize             = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Font              = Times New Roman/10/B:0
+      Font Variable     = Times-New-Roman10B
+      Help ID           = 22
+      ID                = 16
+      Justification     = Left
+      Label Offset      = 0
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 20.00
+      Lines             = 2.20
+      No Key Letter     = FALSE
+      Size              = 37.40
+      Size Variable     = URLLbl-Size
+      Tab Order         = 11
+      Title             = "URL:"
+      Transparent       = FALSE
+      Visible           = 1:TRUE
+   End
+   Begin Entry-Field url-ef
+      SCREEN-COL        = 2.60
+      SCREEN-LINE       = 22.70
+      LOCK-CONTROL      = FALSE
+      (Name)            = url-ef
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Autofill ID       = 0
+      Autofill Max Lines = 0
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 131329
+      Column            = 2.60
+      Csize             = 0
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 20
+      ID                = 14
+      Justification     = Left
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 22.70
+      Lines             = 2.40
+      Max Lines         = 0
+      Max Text          = 200
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 43.80
+      Size Variable     = UrlEF-Size
+      Style             = Singleline
+      Tab Order         = 12
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Value Picture     = X(200)
+      Value Variable    = UrlEf-Value
+      Visible           = 1:TRUE
+      After Procedure   = UPDATE-BROWSER
+   End
+   Begin Push-Button GoBack-Pb
+      SCREEN-COL        = 41.10
+      SCREEN-LINE       = 20.00
+      LOCK-CONTROL      = FALSE
+      (Name)            = GoBack-Pb
+      Bitmap            = "smpl-arrows.bmp"
+      Bitmap Frame      = FALSE
+      Bitmap Handle     = smpl-arrows-bmp
+      Bitmap Number     = 12
+      Bitmap Scale      = FALSE
+      Bitmap Square     = TRUE
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 0
+      Column            = 41.10
+      Column Variable   = GoBackBtn-Col
+      Copy Resource     = TRUE
+      Csize             = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Exception Value   = 11
+      Flat              = FALSE
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 23
+      ID                = 17
+      Is Link           = FALSE
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 20.00
+      Lines             = 2.20
+      Lines in Pixels   = 15
+      Multiline         = FALSE
+      No Auto Default   = FALSE
+      No Tab            = FALSE
+      Self Act          = TRUE
+      Size              = 2.40
+      Size in Pixels    = 16
+      Style             = Other
+      Tab Order         = 13
+      Termination Value = 0
+      Title             = "Go Back"
+      Transparent Color = -1
+      Visible           = 1:TRUE
+      Link To           = GoBack-Pb-Link
+   End
+   Begin Push-Button GoForward-Pb
+      SCREEN-COL        = 43.60
+      SCREEN-LINE       = 20.00
+      LOCK-CONTROL      = FALSE
+      (Name)            = GoForward-Pb
+      Bitmap            = "smpl-arrows.bmp"
+      Bitmap Frame      = FALSE
+      Bitmap Handle     = smpl-arrows-bmp
+      Bitmap Number     = 13
+      Bitmap Scale      = FALSE
+      Bitmap Square     = TRUE
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 0
+      Column            = 43.60
+      Column Variable   = GoForwardBtn-Col
+      Copy Resource     = TRUE
+      Csize             = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Exception Value   = 12
+      Flat              = FALSE
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 24
+      ID                = 18
+      Is Link           = FALSE
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 20.00
+      Lines             = 2.20
+      Lines in Pixels   = 15
+      Multiline         = FALSE
+      No Auto Default   = FALSE
+      No Tab            = FALSE
+      Self Act          = TRUE
+      Size              = 2.40
+      Size in Pixels    = 16
+      Style             = Other
+      Tab Order         = 14
+      Termination Value = 0
+      Title             = "Go Forward"
+      Transparent Color = -1
+      Visible           = 1:TRUE
+      Link To           = GoForward-Pb-Link
+   End
+   Begin Label WbStatus-Label
+      SCREEN-COL        = 2.60
+      SCREEN-LINE       = 40.20
+      LOCK-CONTROL      = FALSE
+      (Name)            = WbStatus-Label
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 1
+      Column            = 2.60
+      Csize             = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 25
+      ID                = 19
+      Justification     = Left
+      Label Offset      = 0
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 40.20
+      Line Variable     = WbStatus-Line
+      Lines             = 3.40
+      No Key Letter     = FALSE
+      Size              = 43.80
+      Size Variable     = WbStatLbl-Size
+      Tab Order         = 15
+      Title             = " "
+      Title Picture     = X(100)
+      Title Variable    = wb1-status
+      Transparent       = FALSE
+      Visible           = 1:TRUE
+   End
+   Begin Web-Browser2 WB-1
+      SCREEN-COL        = 2.60
+      SCREEN-LINE       = 26.00
+      LOCK-CONTROL      = FALSE
+      (Name)            = WB-1
+      Builtin Error Page = FALSE
+      Column            = 2.60
+      Context Menus     = FALSE
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Help ID           = 0
+      ID                = 1
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 26.00
+      Lines             = 13.00
+      Lines Variable    = WB1-Lines
+      No Tab            = FALSE
+      Script            = FALSE
+      Script Dialogs    = FALSE
+      Size              = 43.80
+      Size Variable     = WB1-Size
+      Status Bar        = FALSE
+      Tab Order         = 16
+      Value             = "https://www.rocketsoftware.com"
+      Value Picture     = X(100)
+      Value Variable    = Wb-1-Url
+      Visible           = 1:TRUE
+      Zoom              = FALSE
+      Event Procedure   = WB-1-Event-Proc
+      Msg-Wb-Navigate-Complete = Wb1-Nav-Complete
+      Msg-Wb-Title-Change = Wb1-Title-Change
+   End
+   Begin Toolbar Cust-Scree-Tb-1
+      SCREEN-LINE       = 1.00
+      LOCK-CONTROL      = FALSE
+      (Name)            = Cust-Scree-Tb-1
+      Cell              = TRUE
+      Color             = 0
+      Font              = Default Font
+      Handle Variable   = Cust-Scree-Tb-1-Handle
+      Help ID           = 0
+      Lines             = 3.20
+      Tab Order         = 17
+      Begin Push-Button FirstRec-Pb
+         SCREEN-COL        = 2.00
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = FirstRec-Pb
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 1
+         Bitmap Scale      = FALSE
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Color             = 0
+         Column            = 2.00
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 1
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 27
+         ID                = 20
+         Is Link           = FALSE
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 1
+         Termination Value = 0
+         Title             = "First Record"
+         Transparent Color = -1
+         Visible           = 1:TRUE
+         Link To           = FirstRec-Pb-Link
+      End
+      Begin Push-Button PrevRec-Pb
+         SCREEN-COL        = 4.40
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = PrevRec-Pb
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 2
+         Bitmap Scale      = FALSE
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Color             = 0
+         Column            = 4.40
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 2
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 36
+         ID                = 21
+         Is Link           = FALSE
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 2
+         Termination Value = 0
+         Title             = "Previous Record"
+         Transparent Color = -1
+         Visible           = 1:TRUE
+         Link To           = PrevRec-Pb-Link
+      End
+      Begin Push-Button NextRec-Pb
+         SCREEN-COL        = 6.80
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = NextRec-Pb
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 3
+         Bitmap Scale      = FALSE
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Color             = 0
+         Column            = 6.80
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 3
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 37
+         ID                = 22
+         Is Link           = FALSE
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 3
+         Termination Value = 0
+         Title             = "Next Record"
+         Transparent Color = -1
+         Visible           = 1:TRUE
+         Link To           = NextRec-Pb-Link
+      End
+      Begin Push-Button LastRec-Pb
+         SCREEN-COL        = 9.20
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = LastRec-Pb
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 4
+         Bitmap Scale      = FALSE
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Color             = 0
+         Column            = 9.20
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 4
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 38
+         ID                = 23
+         Is Link           = FALSE
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 4
+         Termination Value = 0
+         Title             = "Last Record"
+         Transparent Color = -1
+         Visible           = 1:TRUE
+         Link To           = LastRec-Pb-Link
+      End
+      Begin Push-Button NewRec-Pb
+         SCREEN-COL        = 12.50
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = NewRec-Pb
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 5
+         Bitmap Scale      = FALSE
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Color             = 0
+         Column            = 12.50
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 5
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 39
+         ID                = 27
+         Is Link           = FALSE
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 5
+         Termination Value = 0
+         Title             = "New Record"
+         Transparent Color = -1
+         Visible           = 1:TRUE
+         Link To           = NewRec-Pb-Link
+      End
+      Begin Push-Button WriteRec-Pb
+         SCREEN-COL        = 14.90
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = WriteRec-Pb
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 7
+         Bitmap Scale      = FALSE
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Color             = 0
+         Column            = 14.90
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 7
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 33
+         ID                = 26
+         Is Link           = FALSE
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 6
+         Termination Value = 0
+         Title             = "Write Record"
+         Transparent Color = -1
+         Visible           = 1:TRUE
+         Link To           = WriteRec-Pb-Link
+      End
+      Begin Push-Button DeleteRec-Pb
+         SCREEN-COL        = 17.30
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = DeleteRec-Pb
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 6
+         Bitmap Scale      = FALSE
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Color             = 0
+         Column            = 17.30
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 6
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 32
+         ID                = 25
+         Is Link           = FALSE
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 7
+         Termination Value = 0
+         Title             = "Delete Record"
+         Transparent Color = -1
+         Visible           = 1:TRUE
+         Link To           = DeleteRec-Pb-Link
+      End
+      Begin Push-Button Email-Pb
+         SCREEN-COL        = 21.50
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = Email-Pb
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 10
+         Bitmap Scale      = FALSE
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Color             = 0
+         Column            = 21.50
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 8
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 40
+         ID                = 24
+         Is Link           = FALSE
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 8
+         Termination Value = 0
+         Title             = "Send Mail"
+         Transparent Color = -1
+         Visible           = 1:TRUE
+         Link To           = Email-Pb-Link
+      End
+      Begin Push-Button RefreshBrowser-Pb
+         SCREEN-COL        = 23.90
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = RefreshBrowser-Pb
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 8
+         Bitmap Scale      = FALSE
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Color             = 0
+         Column            = 23.90
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 9
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 41
+         ID                = 28
+         Is Link           = FALSE
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 9
+         Termination Value = 0
+         Title             = "www.rocketsoftware.com"
+         Transparent Color = -1
+         Visible           = 1:TRUE
+         Link To           = RefreshBrowser-Pb-Link
+      End
+      Begin Push-Button ShowAVI-Pb
+         SCREEN-COL        = 26.30
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = ShowAVI-Pb
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 14
+         Bitmap Scale      = FALSE
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Color             = 0
+         Column            = 26.30
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 10
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 42
+         ID                = 29
+         Is Link           = FALSE
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 10
+         Termination Value = 0
+         Title             = "View AVI"
+         Transparent Color = -1
+         Visible           = 1:TRUE
+         Link To           = ShowAVI-Pb-Link
+      End
+      Begin Push-Button ShowHTML-Pb
+         SCREEN-COL        = 28.60
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = ShowHTML-Pb
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 15
+         Bitmap Scale      = FALSE
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Color             = 0
+         Column            = 28.60
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 14
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 44
+         ID                = 15
+         Is Link           = FALSE
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 11
+         Termination Value = 0
+         Title             = "HTML"
+         Transparent Color = -1
+         Visible           = 1:TRUE
+         Link To           = ShowHTML-Pb-Link
+      End
+   End
+End
+
+END-SPDATA
+
+@}}
+
+{{@REPORT:
+*   Report Writer Data
+*   Schema 6.0
+*
+BEGIN-RWDATA-6.0A
+
+END-RWDATA
+
+@}}
+
+{{@PARAGRAPH:
+      *
+       BEFORE-PROGRAM.
+           move "https://www.rocketsoftware.com" TO URLEF-VALUE.      
+      *
+       FIRSTREC-PB-LINK.
+      *
+           MOVE 0 TO CUSTOMER-NAME-ENABLED
+           MODIFY COMPANYNAME-EF, ENABLED CUSTOMER-NAME-ENABLED
+           MOVE LOW-VALUES TO CUSTOMER-NAME
+           START CUSTOMER-FILE KEY > CUSTOMER-NAME
+           READ CUSTOMER-FILE NEXT RECORD
+           AT END 
+             DISPLAY MESSAGE BOX 
+                     "NO RECORDS IN FILE"
+                     TITLE "CUSTOMER-FILE ERROR"
+           NOT AT END
+             PERFORM UPDATE-SCREEN-FIELDS
+             PERFORM UPDATE-SCREEN
+           END-READ           
+           .
+      *
+       PREVREC-PB-LINK.
+           MOVE 0 TO CUSTOMER-NAME-ENABLED
+           MODIFY COMPANYNAME-EF, ENABLED CUSTOMER-NAME-ENABLED
+           READ CUSTOMER-FILE PREVIOUS RECORD
+           AT END 
+             DISPLAY MESSAGE BOX 
+                     "AT BEGINNING OF FILE"
+                     TITLE "CUSTOMER-FILE ERROR"
+             READ CUSTOMER-FILE KEY IS CUSTOMER-NAME END-READ
+           NOT AT END  
+             PERFORM UPDATE-SCREEN-FIELDS
+             PERFORM UPDATE-SCREEN
+           END-READ           
+           .
+      *
+       NEXTREC-PB-LINK.
+           MOVE 0 TO CUSTOMER-NAME-ENABLED
+           MODIFY COMPANYNAME-EF, ENABLED CUSTOMER-NAME-ENABLED
+           READ CUSTOMER-FILE NEXT RECORD
+           AT END 
+             DISPLAY MESSAGE BOX 
+                    "AT END OF FILE"
+                    TITLE "CUSTOMER-FILE ERROR"
+             READ CUSTOMER-FILE KEY IS CUSTOMER-NAME END-READ
+           NOT AT END  
+             PERFORM UPDATE-SCREEN-FIELDS
+             PERFORM UPDATE-SCREEN
+           END-READ            
+           .
+      *
+       LASTREC-PB-LINK.
+           MOVE 0 TO CUSTOMER-NAME-ENABLED
+           MODIFY COMPANYNAME-EF, ENABLED CUSTOMER-NAME-ENABLED
+           MOVE HIGH-VALUES TO CUSTOMER-NAME
+           START CUSTOMER-FILE KEY < CUSTOMER-NAME
+           READ CUSTOMER-FILE PREVIOUS RECORD
+           AT END DISPLAY MESSAGE BOX 
+                               "NO RECORDS IN FILE"
+                               TITLE "CUSTOMER-FILE ERROR"
+           END-READ
+           PERFORM UPDATE-SCREEN-FIELDS
+           PERFORM UPDATE-SCREEN           
+           .
+      *
+       NEWREC-PB-LINK.
+           MOVE 1 TO CUSTOMER-NAME-ENABLED
+           MODIFY COMPANYNAME-EF, ENABLED CUSTOMER-NAME-ENABLED           
+           .
+      *
+       WRITEREC-PB-LINK.
+           PERFORM WRITE-CURRENT-RECORD
+           READ CUSTOMER-FILE KEY IS CUSTOMER-NAME  
+           PERFORM UPDATE-SCREEN-FIELDS
+           PERFORM UPDATE-SCREEN           
+           .
+      *
+       DELETEREC-PB-LINK.
+           DISPLAY MESSAGE BOX 
+             "ARE YOU SURE?"
+             TITLE "DELETING RECORD..."
+             TYPE IS MB-YES-NO,
+             DEFAULT IS MB-NO,
+             ICON IS MB-WARNING-ICON
+             GIVING MB-VALUE
+              
+           IF MB-VALUE = MB-YES 
+             DELETE CUSTOMER-FILE RECORD
+             MOVE LOW-VALUES TO CUSTOMER-NAME
+             START CUSTOMER-FILE KEY > CUSTOMER-NAME
+             PERFORM UPDATE-SCREEN-FIELDS
+             PERFORM UPDATE-SCREEN
+           END-IF  
+           .
+      *
+       EMAIL-PB-LINK.
+           MOVE "MAILTO:INFO@ROCKETSOFTWARE.COM" TO WB-1-URL
+           MODIFY URL-EF, VALUE WB-1-URL
+           MODIFY WB-1, VALUE WB-1-URL           
+           .
+      *
+       REFRESHBROWSER-PB-LINK.
+           MOVE "https://www.rocketsoftware.com" TO WB-1-URL
+           MODIFY URL-EF, VALUE WB-1-URL
+           MODIFY WB-1 VALUE WB-1-URL             
+           .
+      *
+       SHOWAVI-PB-LINK.
+           INITIALIZE OPENSAVE-DATA, START-DIR 
+
+           STRING INSTALL-DIRECTORY(1:PATH-LENGTH), 
+             DELIMITED BY SIZE, 
+             "\", DELIMITED BY SIZE, 
+             "ACUBENCH", DELIMITED BY SIZE, 
+             "\", DELIMITED BY SIZE, 
+             INTO START-DIR.
+
+           MOVE AVI-FILES TO OPNSAV-FILTERS
+           PERFORM OPENSAVE-DIALOG           
+           .
+      *
+       SHOWHTML-PB-LINK.
+           INITIALIZE OPENSAVE-DATA, START-DIR
+
+           STRING INSTALL-DIRECTORY(1:PATH-LENGTH), 
+             DELIMITED BY SIZE, 
+             "\", DELIMITED BY SIZE, 
+             "ACUGT", DELIMITED BY SIZE, 
+             "\", DELIMITED BY SIZE, 
+             INTO START-DIR.
+
+           MOVE HTML-FILES TO OPNSAV-FILTERS
+           PERFORM OPENSAVE-DIALOG           
+           .
+      *
+       GOBACK-PB-LINK.
+           MODIFY WB-1 GO-BACK=1           
+           .
+      *
+       GOFORWARD-PB-LINK.
+           MODIFY WB-1 GO-FORWARD=1           
+           .
+      *
+       WB1-NAV-COMPLETE.
+           INQUIRE WB-1 VALUE IN WB-1-URL.
+           IF WB-1-URL IS NOT = URLEF-VALUE 
+             MOVE WB-1-URL TO URLEF-VALUE
+             MODIFY URL-EF, VALUE URLEF-VALUE             
+           END-IF.           
+           .
+      *
+       WB1-STATUS-CHANGE.
+      *     INQUIRE WB-1 STATUS-TEXT IN WB1-STATUS.
+      *     MODIFY WBSTATUS-LABEL TITLE WB1-STATUS.       
+           .
+      *
+       WB1-TITLE-CHANGE.
+           INQUIRE WB-1 TITLE IN WB-1-TITLE.
+           DISPLAY WB-1-TITLE UPON GLOBAL WINDOW TITLE.           
+           .
+      *
+       CUST-SCREEN-EX-NTF-RESIZED.
+           COMPUTE CURRENT-SCREEN-LINES = EVENT-DATA-1/100
+           COMPUTE CURRENT-SCREEN-SIZE = EVENT-DATA-2/100
+           PERFORM ADJUST-CONTROLS
+           .
+      *
+       CUST-SCREEN-AFT-CREATE.
+           MOVE LOW-VALUES TO CUSTOMER-NAME.
+           START CUSTOMER-FILE KEY > CUSTOMER-NAME.
+           PERFORM ACU-CUSTOMER-READ-NEXT           
+           .
+      *
+       CUST-SCREEN-AFT-INITDATA.
+           PERFORM UPDATE-SCREEN
+           .
+      *
+       CUSTOMER-AFTER-READ.
+           PERFORM UPDATE-SCREEN-FIELDS                      
+           .
+      *
+       UPDATE-SCREEN-FIELDS.          
+           MOVE CUSTOMER-NAME    TO WS-CUSTOMER-NAME.
+           MOVE CUSTOMER-ADDR-1  TO WS-CUSTOMER-ADDR-1.
+           MOVE CUSTOMER-ADDR-2  TO WS-CUSTOMER-ADDR-2.
+           MOVE CUSTOMER-CITY    TO WS-CUSTOMER-ADDR-3.
+           MOVE CUSTOMER-CONTACT TO WS-CUSTOMER-CONTACT.
+           MOVE CUSTOMER-PHONE   TO WS-CUSTOMER-PHONE.           
+      *     
+       UPDATE-SCREEN.           
+           MODIFY COMPANYNAME-EF, VALUE WS-CUSTOMER-NAME.
+           MODIFY ADDR1-EF, VALUE WS-CUSTOMER-ADDR-1.
+           MODIFY ADDR2-EF, VALUE WS-CUSTOMER-ADDR-2.
+           MODIFY ADDR3-EF, VALUE WS-CUSTOMER-ADDR-3.
+           MODIFY COMPANYCONTACT-COMBO, VALUE WS-CUSTOMER-CONTACT.
+           MODIFY CUSTOMER-PHONE-EF, VALUE WS-CUSTOMER-PHONE.
+      *
+       UPDATE-RECORD-FIELDS.
+           MOVE WS-CUSTOMER-NAME    TO CUSTOMER-NAME.
+           MOVE WS-CUSTOMER-ADDR-1  TO CUSTOMER-ADDR-1.
+           MOVE WS-CUSTOMER-ADDR-2  TO CUSTOMER-ADDR-2.
+           MOVE WS-CUSTOMER-ADDR-3  TO CUSTOMER-CITY.
+           MOVE WS-CUSTOMER-PHONE   TO CUSTOMER-PHONE.
+           MOVE WS-CUSTOMER-CONTACT TO CUSTOMER-CONTACT.       
+      *
+       WRITE-CURRENT-RECORD.            
+           PERFORM UPDATE-RECORD-FIELDS.
+           WRITE CUSTOMER-RECORD
+             INVALID KEY
+               REWRITE CUSTOMER-RECORD
+           END-WRITE.           
+      *
+       UPDATE-BROWSER.
+           MOVE URLEF-VALUE TO WB-1-URL.
+           MODIFY URL-EF, VALUE WB-1-URL.
+           MODIFY WB-1 VALUE WB-1-URL    .
+      *
+       OPENSAVE-DIALOG.
+           MOVE 1 TO OPNSAV-DEFAULT-FILTER.
+           MOVE "FILE SELECTOR" TO OPNSAV-TITLE.
+           MOVE START-DIR TO OPNSAV-DEFAULT-DIR.
+           CALL "C$OPENSAVEBOX" USING OPENSAVE-OPEN-BOX, OPENSAVE-DATA.
+      
+           IF RETURN-CODE NOT = OPNSAVERR-CANCELLED
+              MOVE OPNSAV-FILENAME TO URLEF-VALUE
+              PERFORM UPDATE-BROWSER
+           END-IF.
+      *     
+       ADJUST-CONTROLS.           
+           COMPUTE COMPNAMELBL-SIZE = (CURRENT-SCREEN-SIZE / 2) - 4.8.
+           COMPUTE COMPNAMEEF-SIZE  = (CURRENT-SCREEN-SIZE / 2) - 4.8.
+           COMPUTE COMPADDRLBL-SIZE = (CURRENT-SCREEN-SIZE / 2) - 4.8.
+           COMPUTE COMPADDREF1-SIZE = (CURRENT-SCREEN-SIZE / 2) - 4.8.
+           COMPUTE COMPADDREF2-SIZE = (CURRENT-SCREEN-SIZE / 2) - 4.8.
+           COMPUTE COMPADDREF3-SIZE = (CURRENT-SCREEN-SIZE / 2) - 4.8.
+           COMPUTE COMPANYCONTACTLBL-COL = 
+                                      (CURRENT-SCREEN-SIZE / 2) + 1.9.
+           COMPUTE COMPCONTACTLBL-SIZE = 
+                                      (CURRENT-SCREEN-SIZE / 2) - 2.4.
+           COMPUTE COMPANYCONTACTCOMBO-COL =
+                                      (CURRENT-SCREEN-SIZE / 2) + 1.9.
+           COMPUTE COMPCONTACTCOMBO-SIZE =
+                                      (CURRENT-SCREEN-SIZE / 2) - 2.4.
+           COMPUTE CONTACTNUMLBL-COL =
+                                      (CURRENT-SCREEN-SIZE / 2) + 1.9.
+           COMPUTE CONTACTNUMLBL-SIZE = 
+                                      (CURRENT-SCREEN-SIZE / 2) - 2.4.
+           COMPUTE CUSTPHONE-COL =    (CURRENT-SCREEN-SIZE / 2) + 1.9.
+           COMPUTE CUSTPHONE-SIZE =   (CURRENT-SCREEN-SIZE / 2) - 2.4.
+           COMPUTE URLLBL-SIZE =       CURRENT-SCREEN-SIZE - 8.2.
+           COMPUTE URLEF-SIZE =        CURRENT-SCREEN-SIZE - 1.8.
+           COMPUTE WB1-LINES =         CURRENT-SCREEN-LINES - 31.6.   
+           COMPUTE WB1-SIZE =          CURRENT-SCREEN-SIZE - 1.8.
+           COMPUTE GOBACKBTN-COL =     CURRENT-SCREEN-SIZE - 5.5.
+           COMPUTE GOFORWARDBTN-COL =  CURRENT-SCREEN-SIZE - 2.9.
+           COMPUTE WBSTATUS-LINE =     CURRENT-SCREEN-LINES - 3.
+           COMPUTE WBSTATLBL-SIZE =    CURRENT-SCREEN-LINES - 1.8.
+      *     
+           MODIFY COMPANYNAME-LABEL
+              SIZE COMPNAMELBL-SIZE CELLS.
+              
+           MODIFY COMPANYNAME-EF, 
+              SIZE COMPNAMEEF-SIZE CELLS.
+              
+           MODIFY COMPANYADDR-LABEL, 
+              SIZE COMPADDRLBL-SIZE CELLS.
+              
+           MODIFY ADDR1-EF, 
+              SIZE COMPADDREF1-SIZE CELLS.
+              
+           MODIFY ADDR2-EF, 
+              SIZE COMPADDREF2-SIZE CELLS.
+              
+           MODIFY ADDR3-EF, 
+              SIZE COMPADDREF3-SIZE CELLS.
+              
+           MODIFY COMPANYCONTACT-LABEL, 
+              COL COMPANYCONTACTLBL-COL,
+              SIZE COMPCONTACTLBL-SIZE CELLS.
+              
+           MODIFY COMPANYCONTACT-COMBO, 
+              COL COMPANYCONTACTCOMBO-COL,
+              SIZE COMPCONTACTCOMBO-SIZE CELLS.
+              
+           MODIFY CONTACTNUM-LABEL, 
+              COL CONTACTNUMLBL-COL,
+              SIZE CONTACTNUMLBL-SIZE CELLS.
+              
+           MODIFY CUSTOMER-PHONE-EF, 
+              COL CUSTPHONE-COL,
+              SIZE CUSTPHONE-SIZE CELLS.
+              
+           MODIFY URL-LABEL, 
+              SIZE URLLBL-SIZE CELLS.
+              
+           MODIFY URL-EF, 
+              SIZE URLEF-SIZE CELLS.
+              
+           MODIFY WB-1, 
+              LINES WB1-LINES CELLS,
+              SIZE WB1-SIZE CELLS.
+              
+           MODIFY GOBACK-PB, 
+              COL GOBACKBTN-COL.
+      
+           MODIFY GOFORWARD-PB, 
+              COL GOFORWARDBTN-COL.
+              
+           MODIFY WBSTATUS-LABEL, 
+              LINE WBSTATUS-LINE,
+              SIZE WBSTATLBL-SIZE CELLS.
+
+
+
+
+@}}
+
+[KEY_STATUS_FIELD_FORMAT]
+PIC=9(4)
+USAGE=[None]
+
+[KEYSTATUS_CONTENT:KS1]
+CONDITION=Exit-Pushed
+VALUE=27
+
+[KEYSTATUS_CONTENT:KS2]
+CONDITION=Message-Received
+VALUE=95
+
+[KEYSTATUS_CONTENT:KS3]
+CONDITION=Event-Occurred
+VALUE=96
+
+[KEYSTATUS_CONTENT:KS4]
+CONDITION=Screen-No-Input-Field
+VALUE=97
+
+[KEYSTATUS_CONTENT:KS5]
+CONDITION=Screen-Time-Out
+VALUE=99
+
+[CODE_GENERATION_OPTIONS]
+FOLLOW_PROJECT_OPTIONS=1
+GENERATE_PROGRAM_FILE=1
+GENERATE_WORKING_STORAGE=1
+GENERATE_EVENT_PARAGRAPH=1
+GENERATE_SCREEN_SECTION=1
+GENERATE_REPORT_SECTION=1
+GENERATE_PROCEDURE_DIVISION=1
+GENERATE_MENU_PARAGRAPH=1
+GENERATE_LINKAGE_SECTION=1
+REPLACE_REMARK_PART=1
+EXCLUDE_PROGRAM_VARIABLE=1
+EXCLUDE_PROGRAM_PARAGRAPH=1
+PROGRAM_EXTENSION=.cbl
+WORKINGSTORAGE_EXTENSION=.wrk
+EVENT_EXTENSION=.evt
+SCREEN_EXTENSION=.scr
+REPORT_EXTENSION=.rpt
+PROCEDURE_EXTENSION=.prd
+MENU_EXTENSION=.mnu
+LINKAGE_EXTENSION=.lks
+PROGRAM_FILE_READ_ONLY=0
+LINK_CLOSE_TO_OPEN=0
+COPYBOOK_READ_ONLY=1
+GENERATE_COPY_FILES=1
+ACCEPT_CONTROL=1
+ANSI_DOCUMENT_FORMAT=1

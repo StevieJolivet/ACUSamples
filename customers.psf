@@ -1,0 +1,1702 @@
+; CASEMaker AcuBench Program Structure File, Version 11.0
+; WARNING: DO NOT MODIFY THIS FILE!
+
+[PROGRAM_CONTENT]
+QUIT_CONFIRM=0
+MAIN_SCREEN_NAME=CUST-SCREEN
+
+{{@DESCRIPTION:
+
+@}}
+
+[WORKING_STORAGE]
+m_nType=1
+m_strName=Working Storage
+m_bBlockRecords=1
+m_bRecordFixed=1
+m_bStandard=1
+{{@FD_m_strDescriptionWK
+
+@}}
+[FDITEM0_WK]
+m_nType=10
+m_strName=CUST-SCREEN-Handle
+m_nUsage=24
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM0_WK
+
+@}}
+[FDITEM1_WK]
+m_nType=10
+m_strName=smpl-arrows-bmp
+m_strRawPic=S9(6)
+m_strPic=S9(6)
+m_nUsage=5
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM1_WK
+
+@}}
+[FDITEM2_WK]
+m_nType=10
+m_strName=default-font
+m_nUsage=38
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM2_WK
+
+@}}
+[FDITEM3_WK]
+m_nType=10
+m_nItemLevel=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM3_WK
+
+@}}
+[FDITEM4_WK]
+m_nType=10
+m_strName=Contact-CB-Container-Item
+m_nItemLevel=3
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM4_WK
+
+@}}
+[FDITEM5_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Aardvark, Arthur A."
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM5_WK
+
+@}}
+[FDITEM6_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Cavanagh, Bob"
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM6_WK
+
+@}}
+[FDITEM7_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Coker, Drake"
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM7_WK
+
+@}}
+[FDITEM8_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Glorioso, Eddie"
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM8_WK
+
+@}}
+[FDITEM9_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Lawrence, Paul"
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM9_WK
+
+@}}
+[FDITEM10_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Mendiola, Eduardo"
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM10_WK
+
+@}}
+[FDITEM11_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Riley, Mike"
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM11_WK
+
+@}}
+[FDITEM12_WK]
+m_nType=10
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Wizard, Mr."
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM12_WK
+
+@}}
+[FDITEM13_WK]
+m_nType=10
+m_strName=Contact-CB-Container-Num
+m_strDefaultValue=8
+m_nItemLevel=78
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM13_WK
+
+@}}
+[FDITEM14_WK]
+m_nType=10
+m_strName=Contact-CB-Container
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_nItemLevel=3
+m_bRedefines=1
+m_strRedefines=Contact-CB-Container-Item
+m_nSync=-1
+m_bOccurs=1
+m_bFixed=1
+m_strRawSize=8
+m_nSize=8
+m_bIndexed=1
+m_lstIndex=Contact-CB-Container-Idx,
+{{@DataItem_m_strDescriptionFDITEM14_WK
+
+@}}
+[FDITEM15_WK]
+m_nType=10
+m_strName=WS-CUSTOMER-CONTACT
+m_strRawPic=X(20)
+m_strPic=X(20)
+m_strDefaultValue="Drake Coker"
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM15_WK
+
+@}}
+[FDITEM16_WK]
+m_nType=10
+m_strName=CUSTOMER-NAME-ENABLED
+m_strRawPic=9
+m_strPic=9
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM16_WK
+
+@}}
+[FDITEM17_WK]
+m_nType=10
+m_strName=WS-CUSTOMER-NAME
+m_strRawPic=X(30)
+m_strPic=X(30)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM17_WK
+
+@}}
+[FDITEM18_WK]
+m_nType=10
+m_strName=WS-CUSTOMER-ADDR-1
+m_strRawPic=X(40)
+m_strPic=X(40)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM18_WK
+
+@}}
+[FDITEM19_WK]
+m_nType=10
+m_strName=WS-CUSTOMER-ADDR-2
+m_strRawPic=X(40)
+m_strPic=X(40)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM19_WK
+
+@}}
+[FDITEM20_WK]
+m_nType=10
+m_strName=WS-CUSTOMER-CITY
+m_strRawPic=X(15)
+m_strPic=X(15)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM20_WK
+
+@}}
+[FDITEM21_WK]
+m_nType=10
+m_strName=WS-CUSTOMER-STATE
+m_strRawPic=XX
+m_strPic=XX
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM21_WK
+
+@}}
+[FDITEM22_WK]
+m_nType=10
+m_strName=WS-CUSTOMER-ZIP
+m_strRawPic=X(10)
+m_strPic=X(10)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM22_WK
+
+@}}
+[FDITEM23_WK]
+m_nType=10
+m_strName=WS-CUSTOMER-PHONE
+m_strRawPic=X(15)
+m_strPic=X(15)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM23_WK
+
+@}}
+[FDITEM24_WK]
+m_nType=10
+m_strName=CUST-SCR-TB-1-Handle
+m_nUsage=24
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM24_WK
+
+@}}
+[FDITEM25_WK]
+m_nType=10
+m_strName=CUST-SCR-MN-1-Handle
+m_nUsage=48
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM25_WK
+
+@}}
+[FDITEM26_WK]
+m_strName=MB-VALUE
+m_strRawPic=9
+m_strPic=9
+m_strDefaultValue=0
+m_nItemLevel=77
+m_bValue=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM26_WK
+
+@}}
+[FDITEM27_WK]
+m_nType=11
+m_strName=FILE-STATUS
+m_strRawPic=X(2)
+m_strPic=X(2)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM27_WK
+
+@}}
+[FDITEM28_WK]
+m_nType=11
+m_strName=Valid-CUSTOMER-FILE
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue="00" THRU "09"
+{{@DataItem_m_strDescriptionFDITEM28_WK
+
+@}}
+
+
+[LINKAGE_SECTION]
+m_nType=1
+m_strName=Linkage Section
+m_bBlockRecords=1
+m_bRecordFixed=1
+m_bStandard=1
+{{@FD_m_strDescriptionLK
+
+@}}
+
+
+[DATASET_CONTENT:DS1]
+DATASET_NAME=Customer-DS
+DATA_LAYOUT=CUSTOMER-FILE
+KEY=CUSTOMER-NAME
+EVENT_AFTER_READ=Customer-DS-After-Read
+
+[SEL_LAYOUT_FILE_CONTENT:DATALAYOUT1]
+DATA_LAYOUT=CUSTOMER-FILE
+DECLARATIVES=
+BEFORE_OPEN=
+AFTER_OPEN=
+BEFORE_COMMIT=
+AFTER_COMMIT=
+BEFORE_ROLLBACK=
+AFTER_ROLLBACK=
+BEFORE_DELETEFILE=
+AFTER_DELETEFILE=
+
+[SEL_LAYOUT_FILE_CONTENT:DATALAYOUT1-IO_FUNCTION_CONTENT]
+GENERATE_IO_FUNCTION1=Declaratives
+GENERATE_IO_FUNCTION2=Read File Key Is
+GENERATE_IO_FUNCTION3=Read File Next
+GENERATE_IO_FUNCTION4=Read File Previous
+GENERATE_IO_FUNCTION5=Write
+GENERATE_IO_FUNCTION6=Rewrite
+GENERATE_IO_FUNCTION7=Delete File Record
+GENERATE_IO_FUNCTION8=Delete File
+GENERATE_IO_FUNCTION9=Close File
+
+{{@SCREEN:
+*   Screen Painter Data
+*   Schema 6.0
+*
+BEGIN-SPDATA
+
+GRAPHICAL-SCREEN
+
+Begin Screen CUST-SCREEN
+   PREFIX            = CUST-SCREE
+   LOCK-CONTROL      = FALSE
+   (Name)            = CUST-SCREEN
+   Absolute Column   = 0
+   Absolute Line     = 0
+   Action            = (None)
+   Auto Minimize     = TRUE
+   Auto Resize       = FALSE
+   Bind To Thread    = FALSE
+   Boxed             = FALSE
+   Cell              = TRUE
+   Cell Height       = 10
+   Cell Measure      = Pixels
+   Cell Width        = 10
+   Color             = 65793
+   Controls Uncropped = FALSE
+   Erase Screen      = FALSE
+   Font              = Default Font
+   Handle Variable   = CUST-SCREEN-Handle
+   Help ID           = 0
+   Label Offset      = 0
+   Layout Manager    = None
+   Lines             = 29.80
+   Link To Thread    = TRUE
+   Main Menu         = CUST-SCR-MN-1-Handle
+   Max Lines         = 0.00
+   Max Size          = 0.00
+   Measuring Control = Label
+   Measuring Font    = Default Font
+   Measuring Style   = [None]
+   Min Lines         = 0.00
+   Min Size          = 0.00
+   Modeless          = TRUE
+   No Close          = FALSE
+   Resizable         = FALSE
+   Scroll            = FALSE
+   Size              = 43.10
+   System Menu       = TRUE
+   Title             = "Screen"
+   Title Bar         = TRUE
+   Unit              = Cells
+   User Gray         = FALSE
+   User White        = FALSE
+   Visible           = 1:TRUE
+   Window Type       = Standard
+   Wrap              = FALSE
+   Event Procedure   = CUST-SCREEN-Event-Proc
+   Before Initdata   = CUST-SCREEN-Bef-Initdata
+   Begin Combo-Box Contact-CB
+      SCREEN-COL        = 11.50
+      SCREEN-LINE       = 22.90
+      LOCK-CONTROL      = FALSE
+      (Name)            = Contact-CB
+      Auto load         = 0
+      Auto load ReadDirection = next
+      Auto load StartDirection = >=
+      Auto load StartValue = low-value
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 65793
+      Column            = 11.50
+      Csize             = 0
+      Destroy Type      = Automatic
+      Enable            = 1:TRUE
+      Exception Value   = 0
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 35
+      ID                = 8
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 22.90
+      Lines             = 7.20
+      Mass Update       = 0:Fast-Update
+      Max Text          = 0
+      No Tab            = FALSE
+      Notify DblClick   = FALSE
+      Notify SelChange  = FALSE
+      Size              = 16.40
+      Style             = Drop Down
+      Tab Order         = 1
+      Termination Value = 0
+      Unsorted          = TRUE
+      Value             = ( "Aardvark, Arthur A.", "Cavanagh, Bob", "Coker, Drake", "Glorioso, Eddie", "Lawrence, Paul", "Mendiola, Eduardo", "Riley, Mike", "Wizard, Mr." )
+      Value Container   = Contact-CB-Container
+      Value Default     = Drake Coker
+      Value Picture     = X(20)
+      Value Variable    = WS-CUSTOMER-CONTACT
+      Visible           = 1:TRUE
+   End
+   Begin Frame Cust-Name-FR
+      SCREEN-COL        = 3.60
+      SCREEN-LINE       = 4.20
+      LOCK-CONTROL      = FALSE
+      (Name)            = Cust-Name-FR
+      3D Style          = Lowered
+      Alternate         = FALSE
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 65793
+      Column            = 3.60
+      Csize             = 0
+      Destroy Type      = Automatic
+      Font              = Default Font
+      Font Variable     = default-font
+      Full Height       = FALSE
+      Help ID           = 34
+      High Color        = 16
+      ID                = 20
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 4.20
+      Lines             = 5.00
+      Low Color         = 1
+      Size              = 37.60
+      Tab Order         = 2
+      Thickness         = Very Heavy
+      Title             = "Customer Name"
+      Title Position    = 1:Top left
+      Visible           = 1:TRUE
+   End
+   Begin Entry-Field Cust-Name-EF
+      SCREEN-COL        = 6.50
+      SCREEN-LINE       = 6.10
+      LOCK-CONTROL      = FALSE
+      (Name)            = Cust-Name-EF
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 0
+      Column            = 6.50
+      Csize             = 0
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Permanent
+      Enable            = 0:FALSE
+      Enable Variable   = CUSTOMER-NAME-ENABLED
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 0
+      ID                = 1
+      Justification     = Left
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 6.10
+      Lines             = 2.30
+      Max Lines         = 0
+      Max Text          = 30
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 34.50
+      Style             = Singleline
+      Tab Order         = 3
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Value Picture     = X(30)
+      Value Variable    = WS-CUSTOMER-NAME
+      Visible           = 1:TRUE
+   End
+   Begin Label Address-LBL
+      SCREEN-COL        = 5.30
+      SCREEN-LINE       = 9.90
+      LOCK-CONTROL      = FALSE
+      (Name)            = Address-LBL
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 0
+      Column            = 5.30
+      Csize             = 0
+      Destroy Type      = Permanent
+      Enable            = 1:TRUE
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 0
+      ID                = 17
+      Justification     = Left
+      Label Offset      = 0
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 9.90
+      Lines             = 1.30
+      No Key Letter     = FALSE
+      Size              = 7.60
+      Tab Order         = 4
+      Title             = "Address:"
+      Transparent       = FALSE
+      Visible           = 1:TRUE
+   End
+   Begin Entry-Field Addr1-EF
+      SCREEN-COL        = 10.40
+      SCREEN-LINE       = 12.00
+      LOCK-CONTROL      = FALSE
+      (Name)            = Addr1-EF
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 0
+      Column            = 10.40
+      Csize             = 0
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Permanent
+      Enable            = 1:TRUE
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 0
+      ID                = 2
+      Justification     = Left
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 12.00
+      Lines             = 2.30
+      Max Lines         = 0
+      Max Text          = 40
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 30.80
+      Style             = Singleline
+      Tab Order         = 5
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Value Picture     = X(40)
+      Value Variable    = WS-CUSTOMER-ADDR-1
+      Visible           = 1:TRUE
+   End
+   Begin Entry-Field Addr2-Ef
+      SCREEN-COL        = 10.40
+      SCREEN-LINE       = 14.60
+      LOCK-CONTROL      = FALSE
+      (Name)            = Addr2-Ef
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 0
+      Column            = 10.40
+      Csize             = 0
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Permanent
+      Enable            = 1:TRUE
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 0
+      ID                = 3
+      Justification     = Left
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 14.60
+      Lines             = 2.30
+      Max Lines         = 0
+      Max Text          = 40
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 30.80
+      Style             = Singleline
+      Tab Order         = 6
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Value Picture     = X(40)
+      Value Variable    = WS-CUSTOMER-ADDR-2
+      Visible           = 1:TRUE
+   End
+   Begin Entry-Field Addr-City-EF
+      SCREEN-COL        = 11.50
+      SCREEN-LINE       = 17.40
+      LOCK-CONTROL      = FALSE
+      (Name)            = Addr-City-EF
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 0
+      Column            = 11.50
+      Csize             = 0
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Permanent
+      Enable            = 1:TRUE
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 0
+      ID                = 4
+      Justification     = Left
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 17.40
+      Lines             = 2.30
+      Max Lines         = 0
+      Max Text          = 15
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 9.80
+      Style             = Singleline
+      Tab Order         = 7
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Value Picture     = X(15)
+      Value Variable    = WS-CUSTOMER-CITY
+      Visible           = 1:TRUE
+   End
+   Begin Entry-Field Addr-State-EF
+      SCREEN-COL        = 21.90
+      SCREEN-LINE       = 17.40
+      LOCK-CONTROL      = FALSE
+      (Name)            = Addr-State-EF
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 0
+      Column            = 21.90
+      Csize             = 0
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Permanent
+      Enable            = 1:TRUE
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 0
+      ID                = 5
+      Justification     = Left
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 17.40
+      Lines             = 2.30
+      Max Lines         = 0
+      Max Text          = 2
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 2.50
+      Style             = Singleline
+      Tab Order         = 8
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Value Picture     = XX
+      Value Variable    = WS-CUSTOMER-STATE
+      Visible           = 1:TRUE
+   End
+   Begin Entry-Field Addr-Zip-EF
+      SCREEN-COL        = 24.10
+      SCREEN-LINE       = 17.40
+      LOCK-CONTROL      = FALSE
+      (Name)            = Addr-Zip-EF
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 0
+      Column            = 24.10
+      Csize             = 0
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Permanent
+      Enable            = 1:TRUE
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 0
+      ID                = 6
+      Justification     = Left
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 17.40
+      Lines             = 2.30
+      Max Lines         = 0
+      Max Text          = 10
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 17.10
+      Style             = Singleline
+      Tab Order         = 9
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Value Picture     = X(10)
+      Value Variable    = WS-CUSTOMER-ZIP
+      Visible           = 1:TRUE
+   End
+   Begin Label Phone-LBL
+      SCREEN-COL        = 27.50
+      SCREEN-LINE       = 20.30
+      LOCK-CONTROL      = FALSE
+      (Name)            = Phone-LBL
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 0
+      Column            = 27.50
+      Csize             = 0
+      Destroy Type      = Permanent
+      Enable            = 1:TRUE
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 0
+      ID                = 16
+      Justification     = Left
+      Label Offset      = 0
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 20.30
+      Lines             = 1.30
+      No Key Letter     = FALSE
+      Size              = 6.40
+      Tab Order         = 10
+      Title             = "Phone:"
+      Transparent       = FALSE
+      Visible           = 1:TRUE
+   End
+   Begin Entry-Field Phone-EF
+      SCREEN-COL        = 28.40
+      SCREEN-LINE       = 22.90
+      LOCK-CONTROL      = FALSE
+      (Name)            = Phone-EF
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Border            = 3D
+      Case              = Mixed
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 0
+      Column            = 28.40
+      Csize             = 0
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Permanent
+      Enable            = 1:TRUE
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 0
+      ID                = 7
+      Justification     = Left
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 22.90
+      Lines             = 2.30
+      Max Lines         = 0
+      Max Text          = 15
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 12.80
+      Style             = Singleline
+      Tab Order         = 11
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Value Picture     = X(15)
+      Value Variable    = WS-CUSTOMER-PHONE
+      Visible           = 1:TRUE
+   End
+   Begin Label Contact-LBL
+      SCREEN-COL        = 5.40
+      SCREEN-LINE       = 20.30
+      LOCK-CONTROL      = FALSE
+      (Name)            = Contact-LBL
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Color             = 0
+      Column            = 5.40
+      Csize             = 0
+      Destroy Type      = Permanent
+      Enable            = 1:TRUE
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 0
+      ID                = 18
+      Justification     = Left
+      Label Offset      = 0
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 20.30
+      Lines             = 1.30
+      No Key Letter     = FALSE
+      Size              = 7.50
+      Tab Order         = 12
+      Title             = "Contact:"
+      Transparent       = FALSE
+      Visible           = 1:TRUE
+   End
+   Begin Push-Button Exit-PB
+      SCREEN-COL        = 17.70
+      SCREEN-LINE       = 27.90
+      LOCK-CONTROL      = FALSE
+      (Name)            = Exit-PB
+      Bitmap Frame      = TRUE
+      Bitmap Number     = 0
+      Bitmap Square     = FALSE
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Column            = 17.70
+      Copy Resource     = TRUE
+      Csize             = 0
+      Destroy Type      = Permanent
+      Enable            = 1:TRUE
+      Exception Value   = 0
+      Flat              = FALSE
+      Font              = Default Font
+      Font Variable     = default-font
+      Help ID           = 0
+      ID                = 10
+      Key               = X
+      Layout Data       = 0
+      Layout Data Max Height Cells = 0.00
+      Layout Data Max Height Pixels = 0
+      Layout Data Max Width Cells = 0.00
+      Layout Data Max Width Pixels = 0
+      Layout Data Min Height Cells = 0.00
+      Layout Data Min Height Pixels = 0
+      Layout Data Min Width Cells = 0.00
+      Layout Data Min Width Pixels = 0
+      Line              = 27.90
+      Lines             = 2.10
+      Multiline         = FALSE
+      No Auto Default   = FALSE
+      No Tab            = FALSE
+      Self Act          = FALSE
+      Size              = 11.40
+      Style             = Cancel Button
+      Tab Order         = 13
+      Termination Value = 0
+      Title             = "E&xit Program"
+      Visible           = 1:TRUE
+   End
+   Begin Toolbar CUST-SCR-TB-1-Screen
+      SCREEN-LINE       = 1.00
+      LOCK-CONTROL      = FALSE
+      (Name)            = CUST-SCR-TB-1-Screen
+      Cell              = TRUE
+      Color             = 65793
+      Font              = Default Font
+      Font Variable     = default-font
+      Handle Variable   = CUST-SCR-TB-1-Handle
+      Help ID           = 23
+      Lines             = 2.20
+      Tab Order         = 14
+      Begin Push-Button FirstRec-PB
+         SCREEN-COL        = 1.30
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = FirstRec-PB
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 1
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Column            = 1.30
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 1
+         Flat              = FALSE
+         Font              = Default Font
+         Help ID           = 29
+         ID                = 9
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 1
+         Termination Value = 0
+         Title             = "First Record"
+         Visible           = 1:TRUE
+         Link To           = FirstRec-PB-Link
+      End
+      Begin Push-Button PrevRec-PB
+         SCREEN-COL        = 3.70
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = PrevRec-PB
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 2
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Column            = 3.70
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 2
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 30
+         ID                = 11
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 2
+         Termination Value = 0
+         Title             = "Previous Record"
+         Visible           = 1:TRUE
+         Link To           = PrevRec-PB-Link
+      End
+      Begin Push-Button NextRec-PB
+         SCREEN-COL        = 6.10
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = NextRec-PB
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 3
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Column            = 6.10
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 3
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 31
+         ID                = 15
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 3
+         Termination Value = 0
+         Title             = "Next Record"
+         Visible           = 1:TRUE
+         Link To           = NextRec-PB-Link
+      End
+      Begin Push-Button LastRec-PB
+         SCREEN-COL        = 8.40
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = LastRec-PB
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 4
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Column            = 8.40
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 4
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 33
+         ID                = 19
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 4
+         Termination Value = 0
+         Title             = "Last Record"
+         Visible           = 1:TRUE
+         Link To           = LastRec-PB-Link
+      End
+      Begin Push-Button NewRec-PB
+         SCREEN-COL        = 36.80
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = NewRec-PB
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 5
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Column            = 36.80
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 5
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 37
+         ID                = 12
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 5
+         Termination Value = 0
+         Title             = "New Record"
+         Visible           = 1:TRUE
+         Link To           = NewRec-PB-Link
+      End
+      Begin Push-Button DeleteRec-PB
+         SCREEN-COL        = 41.40
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = DeleteRec-PB
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 6
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Column            = 41.40
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 6
+         Flat              = FALSE
+         Font              = Default Font
+         Font Variable     = default-font
+         Help ID           = 38
+         ID                = 13
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 6
+         Termination Value = 0
+         Title             = "Delete Record"
+         Visible           = 1:TRUE
+         Link To           = DeleteRec-PB-Link
+      End
+      Begin Push-Button WriteRec-PB
+         SCREEN-COL        = 39.20
+         SCREEN-LINE       = 1.00
+         LOCK-CONTROL      = FALSE
+         (Name)            = WriteRec-PB
+         Bitmap            = "smpl-arrows.bmp"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = smpl-arrows-bmp
+         Bitmap Number     = 7
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Column            = 39.20
+         Copy Resource     = TRUE
+         Csize             = 0
+         Destroy Type      = Automatic
+         Enable            = 1:TRUE
+         Exception Value   = 7
+         Flat              = FALSE
+         Font              = Default Font
+         Help ID           = 39
+         ID                = 14
+         Layout Data       = 0
+         Layout Data Max Height Cells = 0.00
+         Layout Data Max Height Pixels = 0
+         Layout Data Max Width Cells = 0.00
+         Layout Data Max Width Pixels = 0
+         Layout Data Min Height Cells = 0.00
+         Layout Data Min Height Pixels = 0
+         Layout Data Min Width Cells = 0.00
+         Layout Data Min Width Pixels = 0
+         Line              = 1.00
+         Lines             = 2.20
+         Lines in Pixels   = 15
+         Multiline         = FALSE
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Self Act          = TRUE
+         Size              = 2.40
+         Size in Pixels    = 16
+         Style             = Other
+         Tab Order         = 7
+         Termination Value = 0
+         Title             = "Write Record"
+         Visible           = 1:TRUE
+         Link To           = WriteRec-PB-Link
+      End
+   End
+   Begin Menu CUST-SCR-MN-1
+      SCREEN-COL        = 5.10
+      SCREEN-LINE       = 24.50
+      LOCK-CONTROL      = FALSE
+      (Name)            = CUST-SCR-MN-1
+      Handle Variable   = CUST-SCR-MN-1-Handle
+      Style             = Static Menu
+      Tab Order         = 15
+      Begin Menuitem CUST-SCR-MI-1
+         (Name)            = CUST-SCR-MI-1
+         Checked           = FALSE
+         Enable            = 1:TRUE
+         Exception Value   = 0
+         Label             = "&Read"
+         Separator         = FALSE
+         Begin Menuitem CUST-SCR-MI-2
+            (Name)            = CUST-SCR-MI-2
+            Checked           = FALSE
+            Enable            = 1:TRUE
+            Exception Value   = 1
+            Label             = "&First Record"
+            Separator         = FALSE
+         End
+         Begin Menuitem CUST-SCR-MI-3
+            (Name)            = CUST-SCR-MI-3
+            Checked           = FALSE
+            Enable            = 1:TRUE
+            Exception Value   = 2
+            Label             = "&Previous Record"
+            Separator         = FALSE
+         End
+         Begin Menuitem CUST-SCR-MI-4
+            (Name)            = CUST-SCR-MI-4
+            Checked           = FALSE
+            Enable            = 1:TRUE
+            Exception Value   = 3
+            Label             = "&Next Record"
+            Separator         = FALSE
+         End
+         Begin Menuitem CUST-SCR-MI-5
+            (Name)            = CUST-SCR-MI-5
+            Checked           = FALSE
+            Enable            = 1:TRUE
+            Exception Value   = 4
+            Label             = "&Last Record"
+            Separator         = FALSE
+         End
+      End
+      Begin Menuitem CUST-SCR-MI-6
+         (Name)            = CUST-SCR-MI-6
+         Checked           = FALSE
+         Enable            = 1:TRUE
+         Exception Value   = 0
+         Label             = "&Update"
+         Separator         = FALSE
+         Begin Menuitem CUST-SCR-MI-7
+            (Name)            = CUST-SCR-MI-7
+            Checked           = FALSE
+            Enable            = 1:TRUE
+            Exception Value   = 5
+            Label             = "&New Record"
+            Separator         = FALSE
+         End
+         Begin Menuitem CUST-SCR-MI-8
+            (Name)            = CUST-SCR-MI-8
+            Checked           = FALSE
+            Enable            = 1:TRUE
+            Exception Value   = 6
+            Label             = "&Delete Record"
+            Separator         = FALSE
+         End
+         Begin Menuitem CUST-SCR-MI-9
+            (Name)            = CUST-SCR-MI-9
+            Checked           = FALSE
+            Enable            = 1:TRUE
+            Exception Value   = 7
+            Label             = "&Write Record"
+            Separator         = FALSE
+         End
+      End
+   End
+End
+
+END-SPDATA
+
+@}}
+
+{{@REPORT:
+*   Report Writer Data
+*   Schema 6.0
+*
+BEGIN-RWDATA-6.0A
+
+END-RWDATA
+
+@}}
+
+{{@PARAGRAPH:
+      *
+       FirstRec-PB-Link.
+           MOVE 0 TO CUSTOMER-NAME-ENABLED                        
+           MOVE LOW-VALUES TO CUSTOMER-NAME
+           START CUSTOMER-FILE KEY > CUSTOMER-NAME
+           READ CUSTOMER-FILE NEXT RECORD
+             AT END DISPLAY MESSAGE BOX "NO RECORDS IN FILE"
+           END-READ.
+           PERFORM UPDATE-SCREEN-FIELDS.
+           DISPLAY CUST-SCREEN    
+           .
+      *
+       PrevRec-PB-Link.
+           MOVE 0 TO CUSTOMER-NAME-ENABLED
+           READ CUSTOMER-FILE PREVIOUS RECORD
+             AT END 
+               DISPLAY MESSAGE BOX "AT BEGINNING OF FILE"
+               READ CUSTOMER-FILE KEY IS CUSTOMER-NAME END-READ
+           END-READ.
+           PERFORM UPDATE-SCREEN-FIELDS.
+           DISPLAY CUST-SCREEN    
+           .
+      *
+       NextRec-PB-Link.
+           MOVE 0 TO CUSTOMER-NAME-ENABLED           
+           READ CUSTOMER-FILE NEXT RECORD
+             AT END 
+               DISPLAY MESSAGE BOX "AT END OF FILE"
+               READ CUSTOMER-FILE KEY IS CUSTOMER-NAME END-READ
+           END-READ.
+           PERFORM UPDATE-SCREEN-FIELDS.
+           DISPLAY CUST-SCREEN     
+           .
+      *
+       LastRec-PB-Link.
+           MOVE 0 TO CUSTOMER-NAME-ENABLED
+           MOVE HIGH-VALUES TO CUSTOMER-NAME
+           START CUSTOMER-FILE KEY < CUSTOMER-NAME
+           READ CUSTOMER-FILE PREVIOUS RECORD
+             AT END DISPLAY MESSAGE BOX "NO RECORDS IN FILE"
+           END-READ.
+           PERFORM UPDATE-SCREEN-FIELDS.
+           DISPLAY CUST-SCREEN               
+           .
+      *
+       NewRec-PB-Link.
+           MOVE 1 TO CUSTOMER-NAME-ENABLED.           
+           PERFORM UPDATE-SCREEN-FIELDS.
+           DISPLAY CUST-SCREEN    
+           .
+      *
+       WriteRec-PB-Link.
+           PERFORM WRITE-CURRENT-RECORD
+           READ CUSTOMER-FILE KEY IS CUSTOMER-NAME  
+           PERFORM UPDATE-SCREEN-FIELDS.
+           DISPLAY CUST-SCREEN    
+           .
+      *
+       DeleteRec-PB-Link.
+           DISPLAY MESSAGE BOX "ARE YOU SURE?"
+             TITLE "DELETING RECORD..."
+             TYPE IS MB-YES-NO,
+             DEFAULT IS MB-NO,
+             ICON IS MB-WARNING-ICON
+             GIVING MB-VALUE
+              
+           IF MB-VALUE = MB-YES 
+             DELETE CUSTOMER-FILE RECORD
+             MOVE LOW-VALUES TO CUSTOMER-NAME
+             START CUSTOMER-FILE KEY > CUSTOMER-NAME
+           END-IF.
+           PERFORM UPDATE-SCREEN-FIELDS.
+           DISPLAY CUST-SCREEN      
+           .
+      *
+       UPDATE-SCREEN-FIELDS.          
+           MOVE CUSTOMER-NAME TO WS-CUSTOMER-NAME.
+           MOVE CUSTOMER-ADDR-1 TO WS-CUSTOMER-ADDR-1.
+           MOVE CUSTOMER-ADDR-2 TO WS-CUSTOMER-ADDR-2.
+           MOVE CUSTOMER-CITY TO WS-CUSTOMER-CITY.
+           MOVE CUSTOMER-STATE TO WS-CUSTOMER-STATE.
+           MOVE CUSTOMER-ZIP TO WS-CUSTOMER-ZIP.
+           MOVE CUSTOMER-PHONE TO WS-CUSTOMER-PHONE.
+           MOVE CUSTOMER-CONTACT TO WS-CUSTOMER-CONTACT.
+           .
+       UPDATE-RECORD-FIELDS.
+           MOVE WS-CUSTOMER-NAME TO CUSTOMER-NAME.
+           MOVE WS-CUSTOMER-ADDR-1 TO CUSTOMER-ADDR-1.
+           MOVE WS-CUSTOMER-ADDR-2 TO CUSTOMER-ADDR-2.
+           MOVE WS-CUSTOMER-CITY TO CUSTOMER-CITY.
+           MOVE WS-CUSTOMER-STATE TO CUSTOMER-STATE.
+           MOVE WS-CUSTOMER-ZIP TO CUSTOMER-ZIP.
+           MOVE WS-CUSTOMER-PHONE TO CUSTOMER-PHONE.
+           MOVE WS-CUSTOMER-CONTACT TO CUSTOMER-CONTACT.       
+      *
+       WRITE-CURRENT-RECORD.            
+           PERFORM UPDATE-RECORD-FIELDS.
+           WRITE CUSTOMER-RECORD
+             INVALID KEY
+               REWRITE CUSTOMER-RECORD
+           END-WRITE.           
+      *
+       CUST-SCREEN-Bef-Initdata.
+           PERFORM ACU-CUSTOMER-DS-READ-NEXT
+           .
+      *
+       Customer-DS-After-Read.
+           PERFORM UPDATE-SCREEN-FIELDS.
+           DISPLAY CUST-SCREEN           
+           .
+
+@}}
+
+[KEY_STATUS_FIELD_FORMAT]
+PIC=9(4)
+USAGE=[None]
+
+[KEYSTATUS_CONTENT:KS1]
+CONDITION=Exit-Pushed
+VALUE=27
+
+[KEYSTATUS_CONTENT:KS2]
+CONDITION=Message-Received
+VALUE=95
+
+[KEYSTATUS_CONTENT:KS3]
+CONDITION=Event-Occurred
+VALUE=96
+
+[KEYSTATUS_CONTENT:KS4]
+CONDITION=Screen-No-Input-Field
+VALUE=97
+
+[KEYSTATUS_CONTENT:KS5]
+CONDITION=Screen-Time-Out
+VALUE=99
+
+[CODE_GENERATION_OPTIONS]
+FOLLOW_PROJECT_OPTIONS=1
+GENERATE_PROGRAM_FILE=1
+GENERATE_WORKING_STORAGE=1
+GENERATE_EVENT_PARAGRAPH=1
+GENERATE_SCREEN_SECTION=1
+GENERATE_REPORT_SECTION=1
+GENERATE_PROCEDURE_DIVISION=1
+GENERATE_MENU_PARAGRAPH=1
+GENERATE_LINKAGE_SECTION=1
+REPLACE_REMARK_PART=1
+EXCLUDE_PROGRAM_VARIABLE=1
+EXCLUDE_PROGRAM_PARAGRAPH=1
+PROGRAM_EXTENSION=.cbl
+WORKINGSTORAGE_EXTENSION=.wrk
+EVENT_EXTENSION=.evt
+SCREEN_EXTENSION=.scr
+REPORT_EXTENSION=.rpt
+PROCEDURE_EXTENSION=.prd
+MENU_EXTENSION=.mnu
+LINKAGE_EXTENSION=.lks
+PROGRAM_FILE_READ_ONLY=0
+LINK_CLOSE_TO_OPEN=0
+COPYBOOK_READ_ONLY=1
+GENERATE_COPY_FILES=1
+ACCEPT_CONTROL=1
+ANSI_DOCUMENT_FORMAT=1

@@ -1,0 +1,4131 @@
+; CASEMaker AcuBench Workspace File, Version 11.0
+; WARNING: DO NOT MODIFY THIS FILE!
+
+[WORKSPACE_CONTENT]
+PROJECT_LIST=GuiSamples,CharSamples,Samplprj,BasicSamples
+CONFIGURATION_LIST=Release Mode,Debug Mode
+CURRENT_CONFIGURATION=Debug Mode
+
+[PROJECT_CONTENT-GuiSamples]
+RELATIVE_PATH=.
+MAIN_PROGRAM_TYPE=2
+AUTO_REPARSE=1
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+
+[PROGRAM_CONTENT-GuiSamples:PROGRAM1]
+RELATIVE_PATH=Check-box.psf
+
+[PROGRAM_CONTENT-GuiSamples:PROGRAM2]
+RELATIVE_PATH=Combo-Box.psf
+
+[PROGRAM_CONTENT-GuiSamples:PROGRAM3]
+RELATIVE_PATH=Frames.psf
+
+[PROGRAM_CONTENT-GuiSamples:PROGRAM4]
+RELATIVE_PATH=Label.psf
+
+[PROGRAM_CONTENT-GuiSamples:PROGRAM5]
+RELATIVE_PATH=List-Box.psf
+
+[PROGRAM_CONTENT-GuiSamples:PROGRAM6]
+RELATIVE_PATH=Push-Btn.psf
+
+[PROGRAM_CONTENT-GuiSamples:PROGRAM7]
+RELATIVE_PATH=Radio-Btn.psf
+
+[PROGRAM_CONTENT-GuiSamples:PROGRAM8]
+RELATIVE_PATH=Tour.psf
+
+[FOLDER_CONTENT-GuiSamples:Source]
+ACCEPTED_FILE_EXTENSION=*.cbl;*.cob
+CREATED_TIME=9:26:42 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-GuiSamples:Screen]
+ACCEPTED_FILE_EXTENSION=*.scr;*.stf
+CREATED_TIME=9:26:42 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-GuiSamples:Report]
+ACCEPTED_FILE_EXTENSION=*.rpt;*.rtf
+CREATED_TIME=11:22:35 AM, Wednesday, January 29, 2003
+
+[FOLDER_CONTENT-GuiSamples:Copylib]
+ACCEPTED_FILE_EXTENSION=*.cpy;*.wrk;*.mnu;*.prd;*.evt;*.def;*.lks
+CREATED_TIME=9:26:42 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-GuiSamples:Object]
+ACCEPTED_FILE_EXTENSION=*.acu;*.cbx;*.obj;*.lib
+CREATED_TIME=9:26:42 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-GuiSamples:List]
+ACCEPTED_FILE_EXTENSION=*.lst;*.log;*.asq
+CREATED_TIME=9:26:42 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-GuiSamples:Resource]
+ACCEPTED_FILE_EXTENSION=*.ico;*.bmp;*.jpg;*.jpe;*.jpeg
+CREATED_TIME=9:26:42 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-GuiSamples:FD]
+ACCEPTED_FILE_EXTENSION=*.fd;*.sl
+CREATED_TIME=9:26:42 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-GuiSamples:Remote]
+ACCEPTED_FILE_EXTENSION=*.acu;*.cbx;*.obj;*.lib
+CREATED_TIME=1:30:19 PM, Monday, May 21, 2001
+
+[FILE_CONTENT-GuiSamples:FILE1]
+RELATIVE_PATH=Source\Combo-Box.cbl
+FOLDER_NAME=Source
+OWNER_PATH=Combo-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE2]
+RELATIVE_PATH=Source\Check-box.cbl
+FOLDER_NAME=Source
+OWNER_PATH=Check-box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE3]
+RELATIVE_PATH=Source\Frames.cbl
+FOLDER_NAME=Source
+OWNER_PATH=Frames.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE4]
+RELATIVE_PATH=Source\Label.cbl
+FOLDER_NAME=Source
+OWNER_PATH=Label.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE5]
+RELATIVE_PATH=Source\List-Box.cbl
+FOLDER_NAME=Source
+OWNER_PATH=List-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE6]
+RELATIVE_PATH=Source\Push-Btn.cbl
+FOLDER_NAME=Source
+OWNER_PATH=Push-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE7]
+RELATIVE_PATH=Source\Radio-Btn.cbl
+FOLDER_NAME=Source
+OWNER_PATH=Radio-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE8]
+RELATIVE_PATH=Source\Tour.cbl
+FOLDER_NAME=Source
+OWNER_PATH=Tour.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE9]
+RELATIVE_PATH=Screen\Combo-Box.scr
+FOLDER_NAME=Screen
+OWNER_PATH=Combo-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE10]
+RELATIVE_PATH=Screen\Check-box.scr
+FOLDER_NAME=Screen
+OWNER_PATH=Check-box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE11]
+RELATIVE_PATH=Screen\Frames.scr
+FOLDER_NAME=Screen
+OWNER_PATH=Frames.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE12]
+RELATIVE_PATH=Screen\Label.scr
+FOLDER_NAME=Screen
+OWNER_PATH=Label.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE13]
+RELATIVE_PATH=Screen\List-Box.scr
+FOLDER_NAME=Screen
+OWNER_PATH=List-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE14]
+RELATIVE_PATH=Screen\Push-Btn.scr
+FOLDER_NAME=Screen
+OWNER_PATH=Push-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE15]
+RELATIVE_PATH=Screen\Radio-Btn.scr
+FOLDER_NAME=Screen
+OWNER_PATH=Radio-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE16]
+RELATIVE_PATH=Screen\Tour.scr
+FOLDER_NAME=Screen
+OWNER_PATH=Tour.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE17]
+RELATIVE_PATH=Report\Combo-Box.rpt
+FOLDER_NAME=Report
+OWNER_PATH=Combo-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE18]
+RELATIVE_PATH=Report\Check-box.rpt
+FOLDER_NAME=Report
+OWNER_PATH=Check-box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE19]
+RELATIVE_PATH=Report\Frames.rpt
+FOLDER_NAME=Report
+OWNER_PATH=Frames.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE20]
+RELATIVE_PATH=Report\Label.rpt
+FOLDER_NAME=Report
+OWNER_PATH=Label.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE21]
+RELATIVE_PATH=Report\List-Box.rpt
+FOLDER_NAME=Report
+OWNER_PATH=List-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE22]
+RELATIVE_PATH=Report\Push-Btn.rpt
+FOLDER_NAME=Report
+OWNER_PATH=Push-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE23]
+RELATIVE_PATH=Report\Radio-Btn.rpt
+FOLDER_NAME=Report
+OWNER_PATH=Radio-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE24]
+RELATIVE_PATH=Report\Tour.rpt
+FOLDER_NAME=Report
+OWNER_PATH=Tour.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE25]
+RELATIVE_PATH=Copylib\Combo-Box.wrk
+FOLDER_NAME=Copylib
+OWNER_PATH=Combo-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE26]
+RELATIVE_PATH=Copylib\Combo-Box.prd
+FOLDER_NAME=Copylib
+OWNER_PATH=Combo-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE27]
+RELATIVE_PATH=Copylib\Combo-Box.mnu
+FOLDER_NAME=Copylib
+OWNER_PATH=Combo-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE28]
+RELATIVE_PATH=Copylib\Combo-Box.evt
+FOLDER_NAME=Copylib
+OWNER_PATH=Combo-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE29]
+RELATIVE_PATH=Copylib\Combo-Box.lks
+FOLDER_NAME=Copylib
+OWNER_PATH=Combo-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE30]
+RELATIVE_PATH=Copylib\Check-box.wrk
+FOLDER_NAME=Copylib
+OWNER_PATH=Check-box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE31]
+RELATIVE_PATH=Copylib\Check-box.prd
+FOLDER_NAME=Copylib
+OWNER_PATH=Check-box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE32]
+RELATIVE_PATH=Copylib\Check-box.mnu
+FOLDER_NAME=Copylib
+OWNER_PATH=Check-box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE33]
+RELATIVE_PATH=Copylib\Check-box.evt
+FOLDER_NAME=Copylib
+OWNER_PATH=Check-box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE34]
+RELATIVE_PATH=Copylib\Check-box.lks
+FOLDER_NAME=Copylib
+OWNER_PATH=Check-box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE35]
+RELATIVE_PATH=Copylib\Frames.wrk
+FOLDER_NAME=Copylib
+OWNER_PATH=Frames.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE36]
+RELATIVE_PATH=Copylib\Frames.prd
+FOLDER_NAME=Copylib
+OWNER_PATH=Frames.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE37]
+RELATIVE_PATH=Copylib\Frames.mnu
+FOLDER_NAME=Copylib
+OWNER_PATH=Frames.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE38]
+RELATIVE_PATH=Copylib\Frames.evt
+FOLDER_NAME=Copylib
+OWNER_PATH=Frames.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE39]
+RELATIVE_PATH=Copylib\Frames.lks
+FOLDER_NAME=Copylib
+OWNER_PATH=Frames.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE40]
+RELATIVE_PATH=Copylib\Label.wrk
+FOLDER_NAME=Copylib
+OWNER_PATH=Label.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE41]
+RELATIVE_PATH=Copylib\Label.prd
+FOLDER_NAME=Copylib
+OWNER_PATH=Label.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE42]
+RELATIVE_PATH=Copylib\Label.mnu
+FOLDER_NAME=Copylib
+OWNER_PATH=Label.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE43]
+RELATIVE_PATH=Copylib\Label.evt
+FOLDER_NAME=Copylib
+OWNER_PATH=Label.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE44]
+RELATIVE_PATH=Copylib\Label.lks
+FOLDER_NAME=Copylib
+OWNER_PATH=Label.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE45]
+RELATIVE_PATH=Copylib\List-Box.wrk
+FOLDER_NAME=Copylib
+OWNER_PATH=List-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE46]
+RELATIVE_PATH=Copylib\List-Box.prd
+FOLDER_NAME=Copylib
+OWNER_PATH=List-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE47]
+RELATIVE_PATH=Copylib\List-Box.mnu
+FOLDER_NAME=Copylib
+OWNER_PATH=List-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE48]
+RELATIVE_PATH=Copylib\List-Box.evt
+FOLDER_NAME=Copylib
+OWNER_PATH=List-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE49]
+RELATIVE_PATH=Copylib\List-Box.lks
+FOLDER_NAME=Copylib
+OWNER_PATH=List-Box.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE50]
+RELATIVE_PATH=Copylib\Push-Btn.wrk
+FOLDER_NAME=Copylib
+OWNER_PATH=Push-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE51]
+RELATIVE_PATH=Copylib\Push-Btn.prd
+FOLDER_NAME=Copylib
+OWNER_PATH=Push-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE52]
+RELATIVE_PATH=Copylib\Push-Btn.mnu
+FOLDER_NAME=Copylib
+OWNER_PATH=Push-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE53]
+RELATIVE_PATH=Copylib\Push-Btn.evt
+FOLDER_NAME=Copylib
+OWNER_PATH=Push-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE54]
+RELATIVE_PATH=Copylib\Push-Btn.lks
+FOLDER_NAME=Copylib
+OWNER_PATH=Push-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE55]
+RELATIVE_PATH=Copylib\Radio-Btn.wrk
+FOLDER_NAME=Copylib
+OWNER_PATH=Radio-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE56]
+RELATIVE_PATH=Copylib\Radio-Btn.prd
+FOLDER_NAME=Copylib
+OWNER_PATH=Radio-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE57]
+RELATIVE_PATH=Copylib\Radio-Btn.mnu
+FOLDER_NAME=Copylib
+OWNER_PATH=Radio-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE58]
+RELATIVE_PATH=Copylib\Radio-Btn.evt
+FOLDER_NAME=Copylib
+OWNER_PATH=Radio-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE59]
+RELATIVE_PATH=Copylib\Radio-Btn.lks
+FOLDER_NAME=Copylib
+OWNER_PATH=Radio-Btn.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE60]
+RELATIVE_PATH=Copylib\Tour.wrk
+FOLDER_NAME=Copylib
+OWNER_PATH=Tour.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE61]
+RELATIVE_PATH=Copylib\Tour.prd
+FOLDER_NAME=Copylib
+OWNER_PATH=Tour.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE62]
+RELATIVE_PATH=Copylib\Tour.mnu
+FOLDER_NAME=Copylib
+OWNER_PATH=Tour.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE63]
+RELATIVE_PATH=Copylib\Tour.evt
+FOLDER_NAME=Copylib
+OWNER_PATH=Tour.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE64]
+RELATIVE_PATH=Copylib\Tour.lks
+FOLDER_NAME=Copylib
+OWNER_PATH=Tour.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE65]
+RELATIVE_PATH=object\Combo-Box.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\Combo-Box.cbl
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE66]
+RELATIVE_PATH=object\Check-box.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\Check-box.cbl
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE67]
+RELATIVE_PATH=object\Frames.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\Frames.cbl
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE68]
+RELATIVE_PATH=object\Label.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\Label.cbl
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE69]
+RELATIVE_PATH=object\List-Box.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\List-Box.cbl
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE70]
+RELATIVE_PATH=object\Push-Btn.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\Push-Btn.cbl
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE71]
+RELATIVE_PATH=object\Radio-Btn.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\Radio-Btn.cbl
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE72]
+RELATIVE_PATH=object\Tour.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\Tour.cbl
+ATTRIBUTE=0
+
+[FILE_CONTENT-GuiSamples:FILE73]
+RELATIVE_PATH=resource\bmpbtn.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\Push-Btn.cbl
+
+[FILE_CONTENT-GuiSamples:FILE74]
+RELATIVE_PATH=resource\gtanima.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\Tour.cbl
+
+[PROJECT_COMPILE_SETTING-GuiSamples:Release Mode]
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_RUNTIME_SETTING-GuiSamples:Release Mode]
+; Common Options
+NAME_CONFIGURATION_FILE=resource\winsampl.cfg
+; Io Options
+; Debug Options
+; ThinClient Options
+REMOTE_CONFIG_NAME=::/etc/cblconf
+REMOTE_CONFIG_DEBUG=0
+REMOTE_CONFIG_DEBUG_PORT=5632
+
+[PROJECT_ENVIRONMENT_SETTING-GuiSamples:Release Mode]
+VARIABLE0=RUNNAME,Wrun32.exe
+VARIABLE1=COMPILERNAME,Ccbl32.exe
+VARIABLE2=CODE_PREFIX,.\object
+VARIABLE3=ACUPATH,%acudir%\bin
+VARIABLE4=COPYPATH,.\screen;.\copylib;.\report;.\resource;.\fd;..;..\def;%screendir%;%reportdir%;%copydir%
+VARIABLE5=FILE_PREFIX,.\data
+VARIABLE6=THINNAME,AcuThin.exe
+
+[PROJECT_LIBRARY_SETTING-GuiSamples:Release Mode]
+NAME_LIBRARY_FILE=.\object\@.lib
+
+[FILE_COMPILE_OPTION-GuiSamples:Release Mode:Source\Check-box.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-GuiSamples:Release Mode:Source\Combo-Box.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-GuiSamples:Release Mode:Source\Frames.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-GuiSamples:Release Mode:Source\Label.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-GuiSamples:Release Mode:Source\List-Box.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-GuiSamples:Release Mode:Source\Push-Btn.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-GuiSamples:Release Mode:Source\Radio-Btn.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-GuiSamples:Release Mode:Source\Tour.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_COMPILE_SETTING-GuiSamples:Debug Mode]
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+; File Options
+; Source Options
+SOURCE_FORMAT_TYPE=2
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_RUNTIME_SETTING-GuiSamples:Debug Mode]
+; Common Options
+NAME_CONFIGURATION_FILE=resource/winsampl.cfg
+; Io Options
+; Debug Options
+; ThinClient Options
+REMOTE_CONFIG_NAME=::/etc/cblconf
+REMOTE_CONFIG_DEBUG=0
+REMOTE_CONFIG_DEBUG_PORT=5632
+
+[PROJECT_ENVIRONMENT_SETTING-GuiSamples:Debug Mode]
+VARIABLE0=RUNNAME,Wrun32.exe
+VARIABLE1=COMPILERNAME,Ccbl32.exe
+VARIABLE2=CODE_PREFIX,.\object
+VARIABLE3=ACUPATH,%acudir%\bin
+VARIABLE4=COPYPATH,.\screen;.\copylib;.\report;.\resource;.\fd;..;..\def;%screendir%;%reportdir%;%copydir%
+VARIABLE5=FILE_PREFIX,.\data
+VARIABLE6=THINNAME,AcuThin.exe
+
+[PROJECT_LIBRARY_SETTING-GuiSamples:Debug Mode]
+NAME_LIBRARY_FILE=.\object\@.lib
+
+[FILE_COMPILE_OPTION-GuiSamples:Debug Mode:Source\Check-box.cbl]
+COPY_DEPENDENCE=..\def\acugui.def;..\def\acucobol.def;..\def\crtvars.def;..\def\showmsg.def;copylib\Check-box.wrk;screen\Check-box.scr;..\def\showmsg.cpy;copylib\Check-box.prd;copylib\Check-box.evt
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+SOURCE_FORMAT_TYPE=2
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-GuiSamples:Debug Mode:Source\Combo-Box.cbl]
+COPY_DEPENDENCE=..\def\acugui.def;..\def\acucobol.def;..\def\crtvars.def;..\def\showmsg.def;..\def\showmsg.cpy
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-GuiSamples:Debug Mode:Source\Frames.cbl]
+COPY_DEPENDENCE=..\def\acugui.def;..\def\acucobol.def;..\def\crtvars.def;..\def\showmsg.def;..\def\showmsg.cpy
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+SOURCE_FORMAT_TYPE=2
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-GuiSamples:Debug Mode:Source\Label.cbl]
+COPY_DEPENDENCE=..\def\acugui.def;..\def\acucobol.def;..\def\crtvars.def;..\def\showmsg.def;..\def\showmsg.cpy
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+SOURCE_FORMAT_TYPE=2
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-GuiSamples:Debug Mode:Source\List-Box.cbl]
+COPY_DEPENDENCE=..\def\acugui.def;..\def\acucobol.def;..\def\crtvars.def;..\def\showmsg.def;..\def\showmsg.cpy
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+SOURCE_FORMAT_TYPE=2
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-GuiSamples:Debug Mode:Source\Push-Btn.cbl]
+COPY_DEPENDENCE=..\def\acugui.def;..\def\acucobol.def;..\def\crtvars.def;..\def\showmsg.def;..\def\showmsg.cpy;resource\bmpbtn.bmp
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+SOURCE_FORMAT_TYPE=2
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-GuiSamples:Debug Mode:Source\Radio-Btn.cbl]
+COPY_DEPENDENCE=..\def\acugui.def;..\def\acucobol.def;..\def\crtvars.def;..\def\showmsg.def;..\def\showmsg.cpy
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+SOURCE_FORMAT_TYPE=2
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-GuiSamples:Debug Mode:Source\Tour.cbl]
+COPY_DEPENDENCE=..\def\acugui.def;..\def\acucobol.def;..\def\crtvars.def;..\def\showmsg.def;..\def\showmsg.cpy;resource\gtanima.bmp
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+SOURCE_FORMAT_TYPE=2
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_CONTENT-CharSamples]
+RELATIVE_PATH=.
+MAIN_PROGRAM_TYPE=2
+AUTO_REPARSE=1
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+
+[FOLDER_CONTENT-CharSamples:Source]
+ACCEPTED_FILE_EXTENSION=*.cbl;*.cob
+CREATED_TIME=9:28:13 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-CharSamples:Screen]
+ACCEPTED_FILE_EXTENSION=*.scr;*.stf
+CREATED_TIME=9:28:13 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-CharSamples:Report]
+ACCEPTED_FILE_EXTENSION=*.rpt;*.rtf
+CREATED_TIME=11:22:35 AM, Wednesday, January 29, 2003
+
+[FOLDER_CONTENT-CharSamples:Copylib]
+ACCEPTED_FILE_EXTENSION=*.cpy;*.wrk;*.mnu;*.prd;*.evt;*.def;*.lks
+CREATED_TIME=9:28:13 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-CharSamples:Object]
+ACCEPTED_FILE_EXTENSION=*.acu;*.cbx;*.obj;*.lib
+CREATED_TIME=9:28:13 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-CharSamples:List]
+ACCEPTED_FILE_EXTENSION=*.lst;*.log;*.asq
+CREATED_TIME=9:28:13 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-CharSamples:Resource]
+ACCEPTED_FILE_EXTENSION=*.ico;*.bmp;*.jpg;*.jpe;*.jpeg
+CREATED_TIME=9:28:13 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-CharSamples:FD]
+ACCEPTED_FILE_EXTENSION=*.fd;*.sl
+CREATED_TIME=9:28:13 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-CharSamples:Remote]
+ACCEPTED_FILE_EXTENSION=*.acu;*.cbx;*.obj;*.lib
+CREATED_TIME=1:30:19 PM, Monday, May 21, 2001
+
+[FILE_CONTENT-CharSamples:FILE1]
+RELATIVE_PATH=..\iobench.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-CharSamples:FILE2]
+RELATIVE_PATH=..\notepad.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-CharSamples:FILE3]
+RELATIVE_PATH=..\prntscrn.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-CharSamples:FILE4]
+RELATIVE_PATH=..\genmenu.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-CharSamples:FILE5]
+RELATIVE_PATH=object\iobench.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\iobench.cbl
+
+[FILE_CONTENT-CharSamples:FILE6]
+RELATIVE_PATH=object\notepad.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\notepad.cbl
+
+[FILE_CONTENT-CharSamples:FILE7]
+RELATIVE_PATH=object\prntscrn.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\prntscrn.cbl
+
+[FILE_CONTENT-CharSamples:FILE8]
+RELATIVE_PATH=object\genmenu.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\genmenu.cbl
+
+[PROJECT_COMPILE_SETTING-CharSamples:Release Mode]
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_RUNTIME_SETTING-CharSamples:Release Mode]
+; Common Options
+NAME_CONFIGURATION_FILE=resource/winsampl.cfg
+; Io Options
+; Debug Options
+; ThinClient Options
+REMOTE_CONFIG_NAME=::/etc/cblconf
+REMOTE_CONFIG_DEBUG=0
+REMOTE_CONFIG_DEBUG_PORT=5632
+
+[PROJECT_ENVIRONMENT_SETTING-CharSamples:Release Mode]
+VARIABLE0=RUNNAME,Wrun32.exe
+VARIABLE1=COMPILERNAME,Ccbl32.exe
+VARIABLE2=CODE_PREFIX,.\object
+VARIABLE3=ACUPATH,%acudir%\bin
+VARIABLE4=COPYPATH,.\screen;.\copylib;.\report;.\resource;.\fd;..;..\def;%screendir%;%reportdir%;%copydir%
+VARIABLE5=FILE_PREFIX,.\data
+VARIABLE6=THINNAME,AcuThin.exe
+
+[PROJECT_LIBRARY_SETTING-CharSamples:Release Mode]
+NAME_LIBRARY_FILE=.\object\@.lib
+
+[FILE_COMPILE_OPTION-CharSamples:Release Mode:..\genmenu.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-CharSamples:Release Mode:..\iobench.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-CharSamples:Release Mode:..\notepad.cbl]
+COPY_DEPENDENCE=..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-CharSamples:Release Mode:..\prntscrn.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_COMPILE_SETTING-CharSamples:Debug Mode]
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+SOURCE_FORMAT_TYPE=2
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_RUNTIME_SETTING-CharSamples:Debug Mode]
+; Common Options
+NAME_CONFIGURATION_FILE=resource/winsampl.cfg
+; Io Options
+; Debug Options
+; ThinClient Options
+REMOTE_CONFIG_NAME=::/etc/cblconf
+REMOTE_CONFIG_DEBUG=0
+REMOTE_CONFIG_DEBUG_PORT=5632
+
+[PROJECT_ENVIRONMENT_SETTING-CharSamples:Debug Mode]
+VARIABLE0=RUNNAME,Wrun32.exe
+VARIABLE1=COMPILERNAME,Ccbl32.exe
+VARIABLE2=CODE_PREFIX,.\object
+VARIABLE3=ACUPATH,%acudir%\bin
+VARIABLE4=COPYPATH,.\screen;.\copylib;.\report;.\resource;.\fd;..;..\def;%screendir%;%reportdir%;%copydir%
+VARIABLE5=FILE_PREFIX,.\data
+VARIABLE6=THINNAME,AcuThin.exe
+
+[PROJECT_LIBRARY_SETTING-CharSamples:Debug Mode]
+NAME_LIBRARY_FILE=.\object\@.lib
+
+[FILE_COMPILE_OPTION-CharSamples:Debug Mode:..\genmenu.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-CharSamples:Debug Mode:..\iobench.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-CharSamples:Debug Mode:..\notepad.cbl]
+COPY_DEPENDENCE=..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-CharSamples:Debug Mode:..\prntscrn.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_CONTENT-Samplprj]
+RELATIVE_PATH=.
+MAIN_PROGRAM_TYPE=2
+AUTO_REPARSE=1
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+
+[PROGRAM_CONTENT-Samplprj:PROGRAM1]
+RELATIVE_PATH=webbrowsr.psf
+
+[DATALAYOUT_CONTENT-Samplprj:DATALAYOUT1]
+RELATIVE_PATH=FD\CUSTOMER-FILE.dlt
+GENERATED_FD_FILE_PATH=fd\custfile.fd
+GENERATED_SL_FILE_PATH=fd\custfile.sl
+
+[FOLDER_CONTENT-Samplprj:Source]
+ACCEPTED_FILE_EXTENSION=*.cbl;*.cob
+CREATED_TIME=9:29:26 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-Samplprj:Screen]
+ACCEPTED_FILE_EXTENSION=*.scr;*.stf
+CREATED_TIME=9:29:26 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-Samplprj:Report]
+ACCEPTED_FILE_EXTENSION=*.rpt;*.rtf
+CREATED_TIME=11:22:35 AM, Wednesday, January 29, 2003
+
+[FOLDER_CONTENT-Samplprj:Copylib]
+ACCEPTED_FILE_EXTENSION=*.cpy;*.wrk;*.mnu;*.prd;*.evt;*.def;*.lks
+CREATED_TIME=9:29:26 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-Samplprj:Object]
+ACCEPTED_FILE_EXTENSION=*.acu;*.cbx;*.obj;*.lib
+CREATED_TIME=9:29:26 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-Samplprj:List]
+ACCEPTED_FILE_EXTENSION=*.lst;*.log;*.asq
+CREATED_TIME=9:29:26 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-Samplprj:Resource]
+ACCEPTED_FILE_EXTENSION=*.ico;*.bmp;*.jpg;*.jpe;*.jpeg
+CREATED_TIME=9:29:26 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-Samplprj:FD]
+ACCEPTED_FILE_EXTENSION=*.fd;*.sl
+CREATED_TIME=9:29:26 AM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-Samplprj:Remote]
+ACCEPTED_FILE_EXTENSION=*.acu;*.cbx;*.obj;*.lib
+CREATED_TIME=1:30:19 PM, Monday, May 21, 2001
+
+[FILE_CONTENT-Samplprj:FILE1]
+RELATIVE_PATH=Source\webbrowsr.cbl
+FOLDER_NAME=Source
+OWNER_PATH=webbrowsr.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-Samplprj:FILE2]
+RELATIVE_PATH=Screen\webbrowsr.scr
+FOLDER_NAME=Screen
+OWNER_PATH=webbrowsr.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-Samplprj:FILE3]
+RELATIVE_PATH=Report\webbrowsr.rpt
+FOLDER_NAME=Report
+OWNER_PATH=webbrowsr.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-Samplprj:FILE4]
+RELATIVE_PATH=Copylib\webbrowsr.wrk
+FOLDER_NAME=Copylib
+OWNER_PATH=webbrowsr.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-Samplprj:FILE5]
+RELATIVE_PATH=Copylib\webbrowsr.prd
+FOLDER_NAME=Copylib
+OWNER_PATH=webbrowsr.psf
+ATTRIBUTE=0
+
+[FILE_CONTENT-Samplprj:FILE6]
+RELATIVE_PATH=object\webbrowsr.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\webbrowsr.cbl
+ATTRIBUTE=0
+
+[FILE_CONTENT-Samplprj:FILE7]
+RELATIVE_PATH=resource\smpl-arrows.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=SOURCE\customer.cbl
+
+[FILE_CONTENT-Samplprj:FILE8]
+RELATIVE_PATH=fd\custfile.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\CUSTOMER-FILE.dlt
+ATTRIBUTE=0
+
+[FILE_CONTENT-Samplprj:FILE9]
+RELATIVE_PATH=fd\custfile.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\CUSTOMER-FILE.dlt
+ATTRIBUTE=0
+
+[PROJECT_COMPILE_SETTING-Samplprj:Release Mode]
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_RUNTIME_SETTING-Samplprj:Release Mode]
+; Common Options
+NAME_CONFIGURATION_FILE=resource\winsampl.cfg
+; Io Options
+; Debug Options
+; ThinClient Options
+REMOTE_CONFIG_NAME=::/etc/cblconf
+REMOTE_CONFIG_DEBUG=0
+REMOTE_CONFIG_DEBUG_PORT=5632
+
+[PROJECT_ENVIRONMENT_SETTING-Samplprj:Release Mode]
+VARIABLE0=RUNNAME,Wrun32.exe
+VARIABLE1=COMPILERNAME,Ccbl32.exe
+VARIABLE2=CODE_PREFIX,.\object
+VARIABLE3=ACUPATH,%acudir%\bin
+VARIABLE4=COPYPATH,.\screen;.\copylib;.\report;.\resource;.\fd;..;..\def;%screendir%;%reportdir%;%copydir%
+VARIABLE5=FILE_PREFIX,.\data
+VARIABLE6=THINNAME,AcuThin.exe
+
+[PROJECT_LIBRARY_SETTING-Samplprj:Release Mode]
+NAME_LIBRARY_FILE=.\object\@.lib
+
+[FILE_COMPILE_OPTION-Samplprj:Release Mode:Source\webbrowsr.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_COMPILE_SETTING-Samplprj:Debug Mode]
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+; File Options
+; Source Options
+SOURCE_FORMAT_TYPE=2
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_RUNTIME_SETTING-Samplprj:Debug Mode]
+; Common Options
+NAME_CONFIGURATION_FILE=resource\winsampl.cfg
+; Io Options
+; Debug Options
+; ThinClient Options
+REMOTE_CONFIG_NAME=::/etc/cblconf
+REMOTE_CONFIG_DEBUG=0
+REMOTE_CONFIG_DEBUG_PORT=5632
+
+[PROJECT_ENVIRONMENT_SETTING-Samplprj:Debug Mode]
+VARIABLE0=RUNNAME,Wrun32.exe
+VARIABLE1=COMPILERNAME,Ccbl32.exe
+VARIABLE2=CODE_PREFIX,.\object
+VARIABLE3=ACUPATH,%acudir%\bin
+VARIABLE4=COPYPATH,.\screen;.\copylib;.\report;.\resource;.\fd;..;..\def;%layoutdir%;%screendir%;%reportdir%;%copydir%
+VARIABLE5=FILE_PREFIX,.\data
+VARIABLE6=THINNAME,AcuThin.exe
+VARIABLE7=CLASSPATHDIR,%acudir%\lib
+VARIABLE8=XUIJAR,AcuXUI.jar
+
+[PROJECT_LIBRARY_SETTING-Samplprj:Debug Mode]
+NAME_LIBRARY_FILE=.\object\@.lib
+
+[FILE_COMPILE_OPTION-Samplprj:Debug Mode:Source\webbrowsr.cbl]
+COPY_DEPENDENCE=fd\custfile.sl;fd\custfile.fd;..\def\acugui.def;..\def\acucobol.def;..\def\crtvars.def;..\def\fonts.def;..\def\showmsg.def;..\def\showmsg.cpy;resource\smpl-arrows.bmp
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+SOURCE_FORMAT_TYPE=2
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_CONTENT-BasicSamples]
+RELATIVE_PATH=.
+MAIN_PROGRAM_TYPE=2
+AUTO_REPARSE=1
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+
+[FOLDER_CONTENT-BasicSamples:Source]
+ACCEPTED_FILE_EXTENSION=*.cbl;*.cob
+CREATED_TIME=2:52:24 PM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-BasicSamples:Screen]
+ACCEPTED_FILE_EXTENSION=*.scr;*.stf
+CREATED_TIME=2:52:24 PM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-BasicSamples:Report]
+ACCEPTED_FILE_EXTENSION=*.rpt;*.rtf
+CREATED_TIME=11:22:35 AM, Wednesday, January 29, 2003
+
+[FOLDER_CONTENT-BasicSamples:Copylib]
+ACCEPTED_FILE_EXTENSION=*.cpy;*.wrk;*.mnu;*.prd;*.evt;*.def;*.lks
+CREATED_TIME=2:52:24 PM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-BasicSamples:Object]
+ACCEPTED_FILE_EXTENSION=*.acu;*.cbx;*.obj;*.lib
+CREATED_TIME=2:52:24 PM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-BasicSamples:List]
+ACCEPTED_FILE_EXTENSION=*.lst;*.log;*.asq
+CREATED_TIME=2:52:24 PM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-BasicSamples:Resource]
+ACCEPTED_FILE_EXTENSION=*.ico;*.bmp;*.jpg;*.jpe;*.jpeg
+CREATED_TIME=2:52:24 PM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-BasicSamples:FD]
+ACCEPTED_FILE_EXTENSION=*.fd;*.sl
+CREATED_TIME=2:52:24 PM, Wednesday, October 27, 1999
+
+[FOLDER_CONTENT-BasicSamples:Remote]
+ACCEPTED_FILE_EXTENSION=*.acu;*.cbx;*.obj;*.lib
+CREATED_TIME=1:30:19 PM, Monday, May 21, 2001
+
+[FILE_CONTENT-BasicSamples:FILE1]
+RELATIVE_PATH=..\bars.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE2]
+RELATIVE_PATH=..\bldcust.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE3]
+RELATIVE_PATH=..\calc3.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE4]
+RELATIVE_PATH=..\calculat.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE5]
+RELATIVE_PATH=..\cancel.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE6]
+RELATIVE_PATH=..\clrtest3.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE7]
+RELATIVE_PATH=..\custrpt.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE8]
+RELATIVE_PATH=..\dateint.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE9]
+RELATIVE_PATH=..\dayweek.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE10]
+RELATIVE_PATH=..\dgetday.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE11]
+RELATIVE_PATH=..\gridctl.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE12]
+RELATIVE_PATH=..\intdate.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE13]
+RELATIVE_PATH=..\menubar.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE14]
+RELATIVE_PATH=..\menubar2.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE15]
+RELATIVE_PATH=..\message.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE16]
+RELATIVE_PATH=..\newftest.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE17]
+RELATIVE_PATH=..\opensave.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE18]
+RELATIVE_PATH=..\pagebox.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE19]
+RELATIVE_PATH=..\rand.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE20]
+RELATIVE_PATH=..\showfont.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE21]
+RELATIVE_PATH=..\status.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE22]
+RELATIVE_PATH=..\tab.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE23]
+RELATIVE_PATH=..\toolbar.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE24]
+RELATIVE_PATH=..\tourpd.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE25]
+RELATIVE_PATH=..\treesamp.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE26]
+RELATIVE_PATH=..\help\winhelp.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE27]
+RELATIVE_PATH=..\winspool.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE28]
+RELATIVE_PATH=..\acuping.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE29]
+RELATIVE_PATH=..\makesamp.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE30]
+RELATIVE_PATH=..\wheelEvent.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-BasicSamples:FILE31]
+RELATIVE_PATH=object\bars.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\bars.cbl
+
+[FILE_CONTENT-BasicSamples:FILE32]
+RELATIVE_PATH=object\bldcust.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\bldcust.cbl
+
+[FILE_CONTENT-BasicSamples:FILE33]
+RELATIVE_PATH=object\calc3.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\calc3.cbl
+
+[FILE_CONTENT-BasicSamples:FILE34]
+RELATIVE_PATH=object\calculat.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\calculat.cbl
+
+[FILE_CONTENT-BasicSamples:FILE35]
+RELATIVE_PATH=object\cancel.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\cancel.cbl
+
+[FILE_CONTENT-BasicSamples:FILE36]
+RELATIVE_PATH=object\clrtest3.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\clrtest3.cbl
+
+[FILE_CONTENT-BasicSamples:FILE37]
+RELATIVE_PATH=object\custrpt.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\custrpt.cbl
+
+[FILE_CONTENT-BasicSamples:FILE38]
+RELATIVE_PATH=object\dateint.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\dateint.cbl
+
+[FILE_CONTENT-BasicSamples:FILE39]
+RELATIVE_PATH=object\dayweek.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\dayweek.cbl
+
+[FILE_CONTENT-BasicSamples:FILE40]
+RELATIVE_PATH=object\dgetday.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\dgetday.cbl
+
+[FILE_CONTENT-BasicSamples:FILE41]
+RELATIVE_PATH=object\gridctl.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\gridctl.cbl
+
+[FILE_CONTENT-BasicSamples:FILE42]
+RELATIVE_PATH=object\intdate.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\intdate.cbl
+
+[FILE_CONTENT-BasicSamples:FILE43]
+RELATIVE_PATH=object\menubar.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\menubar.cbl
+
+[FILE_CONTENT-BasicSamples:FILE44]
+RELATIVE_PATH=object\menubar2.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\menubar2.cbl
+
+[FILE_CONTENT-BasicSamples:FILE45]
+RELATIVE_PATH=object\message.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\message.cbl
+
+[FILE_CONTENT-BasicSamples:FILE46]
+RELATIVE_PATH=object\newftest.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\newftest.cbl
+
+[FILE_CONTENT-BasicSamples:FILE47]
+RELATIVE_PATH=object\opensave.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\opensave.cbl
+
+[FILE_CONTENT-BasicSamples:FILE48]
+RELATIVE_PATH=object\pagebox.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\pagebox.cbl
+
+[FILE_CONTENT-BasicSamples:FILE49]
+RELATIVE_PATH=object\rand.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\rand.cbl
+
+[FILE_CONTENT-BasicSamples:FILE50]
+RELATIVE_PATH=object\showfont.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\showfont.cbl
+
+[FILE_CONTENT-BasicSamples:FILE51]
+RELATIVE_PATH=object\status.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\status.cbl
+
+[FILE_CONTENT-BasicSamples:FILE52]
+RELATIVE_PATH=object\tab.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\tab.cbl
+
+[FILE_CONTENT-BasicSamples:FILE53]
+RELATIVE_PATH=object\toolbar.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\toolbar.cbl
+
+[FILE_CONTENT-BasicSamples:FILE54]
+RELATIVE_PATH=object\tourpd.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\tourpd.cbl
+
+[FILE_CONTENT-BasicSamples:FILE55]
+RELATIVE_PATH=object\treesamp.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\treesamp.cbl
+
+[FILE_CONTENT-BasicSamples:FILE56]
+RELATIVE_PATH=object\winhelp.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\help\winhelp.cbl
+
+[FILE_CONTENT-BasicSamples:FILE57]
+RELATIVE_PATH=object\winspool.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\winspool.cbl
+
+[FILE_CONTENT-BasicSamples:FILE58]
+RELATIVE_PATH=object\acuping.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\acuping.cbl
+
+[FILE_CONTENT-BasicSamples:FILE59]
+RELATIVE_PATH=object\makesamp.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\makesamp.cbl
+
+[FILE_CONTENT-BasicSamples:FILE60]
+RELATIVE_PATH=object\wheelEvent.acu
+FOLDER_NAME=Object
+OWNER_PATH=..\wheelEvent.cbl
+
+[FILE_CONTENT-BasicSamples:FILE61]
+RELATIVE_PATH=resource\littlegt.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=..\gridctl.cbl
+
+[FILE_CONTENT-BasicSamples:FILE62]
+RELATIVE_PATH=resource\tools1.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=..\toolbar.cbl
+
+[FILE_CONTENT-BasicSamples:FILE63]
+RELATIVE_PATH=resource\gtanima.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=..\tourpd.cbl
+
+[PROJECT_COMPILE_SETTING-BasicSamples:Release Mode]
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_RUNTIME_SETTING-BasicSamples:Release Mode]
+; Common Options
+NAME_CONFIGURATION_FILE=resource/winsampl.cfg
+; Io Options
+; Debug Options
+; ThinClient Options
+REMOTE_CONFIG_NAME=::/etc/cblconf
+REMOTE_CONFIG_DEBUG=0
+REMOTE_CONFIG_DEBUG_PORT=5632
+
+[PROJECT_ENVIRONMENT_SETTING-BasicSamples:Release Mode]
+VARIABLE0=RUNNAME,Wrun32.exe
+VARIABLE1=COMPILERNAME,Ccbl32.exe
+VARIABLE2=CODE_PREFIX,.\object
+VARIABLE3=ACUPATH,%acudir%\bin
+VARIABLE4=COPYPATH,.\screen;.\copylib;.\report;.\resource;.\fd;..;..\def;%screendir%;%reportdir%;%copydir%
+VARIABLE5=FILE_PREFIX,.\data
+VARIABLE6=THINNAME,AcuThin.exe
+
+[PROJECT_LIBRARY_SETTING-BasicSamples:Release Mode]
+NAME_LIBRARY_FILE=.\object\@.lib
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\acuping.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def;..\def\crtvars.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\bars.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\bldcust.cbl]
+COPY_DEPENDENCE=..\def\acugui.def;..\def\acucobol.def;..\def\palette.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\calc3.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def;..\calc3.cpy
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\calculat.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\cancel.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\clrtest3.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\palette.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\custrpt.cbl]
+COPY_DEPENDENCE=..\def\acugui.def;..\def\acucobol.def;..\def\crtvars.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\dateint.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\dayweek.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\dgetday.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\gridctl.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def;..\def\crtvars.def;..\def\controls.def;..\def\opensave.def;..\littlegt.bmp;..\gridctl.cpy
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\help\winhelp.cbl]
+COPY_DEPENDENCE=..\def\winhelp.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\intdate.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\makesamp.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def;..\def\fonts.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\menubar.cbl]
+COPY_DEPENDENCE=..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\menubar2.cbl]
+COPY_DEPENDENCE=..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\message.cbl]
+COPY_DEPENDENCE=..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\newftest.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\opensave.cbl]
+COPY_DEPENDENCE=..\def\opensave.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\pagebox.cbl]
+COPY_DEPENDENCE=..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\rand.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\showfont.cbl]
+COPY_DEPENDENCE=..\def\fonts.def;..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\status.cbl]
+COPY_DEPENDENCE=..\def\acugui.def;..\def\acucobol.def;..\def\palette.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\tab.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\crtvars.def;..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\toolbar.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def;..\tools1.bmp
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\tourpd.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\treesamp.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def;..\def\fonts.def;..\def\crtvars.def;..\def\stdfonts.def;..\def\winvers.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\wheelEvent.cbl]
+; Standard Options
+NAME_OBJECT_FILE=Object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=List\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Release Mode:..\winspool.cbl]
+COPY_DEPENDENCE=..\def\winprint.def;..\def\acucobol.def;..\def\fonts.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_COMPILE_SETTING-BasicSamples:Debug Mode]
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+SOURCE_FORMAT_TYPE=2
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[PROJECT_RUNTIME_SETTING-BasicSamples:Debug Mode]
+; Common Options
+NAME_CONFIGURATION_FILE=resource/winsampl.cfg
+; Io Options
+; Debug Options
+; ThinClient Options
+REMOTE_CONFIG_NAME=::/etc/cblconf
+REMOTE_CONFIG_DEBUG=0
+REMOTE_CONFIG_DEBUG_PORT=5632
+
+[PROJECT_ENVIRONMENT_SETTING-BasicSamples:Debug Mode]
+VARIABLE0=RUNNAME,Wrun32.exe
+VARIABLE1=COMPILERNAME,Ccbl32.exe
+VARIABLE2=CODE_PREFIX,.\object
+VARIABLE3=ACUPATH,%acudir%\bin
+VARIABLE4=COPYPATH,.\screen;.\copylib;.\report;.\resource;.\fd;..;..\def;%screendir%;%reportdir%;%copydir%
+VARIABLE5=FILE_PREFIX,.\data
+VARIABLE6=THINNAME,AcuThin.exe
+
+[PROJECT_LIBRARY_SETTING-BasicSamples:Debug Mode]
+NAME_LIBRARY_FILE=.\object\@.lib
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\acuping.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\bars.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\bldcust.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\calc3.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def;..\calc3.cpy
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\calculat.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\cancel.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\clrtest3.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\custrpt.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\dateint.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\dayweek.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\dgetday.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\gridctl.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def;..\def\crtvars.def;..\def\controls.def;..\def\opensave.def;resource\littlegt.bmp;..\gridctl.cpy
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\help\winhelp.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\intdate.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\makesamp.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=.\list\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\menubar.cbl]
+COPY_DEPENDENCE=..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\menubar2.cbl]
+COPY_DEPENDENCE=..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\message.cbl]
+COPY_DEPENDENCE=..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\newftest.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\opensave.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\pagebox.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\rand.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\showfont.cbl]
+COPY_DEPENDENCE=..\def\fonts.def;..\def\acugui.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\status.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\tab.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\toolbar.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def;resource\tools1.bmp
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\tourpd.cbl]
+COPY_DEPENDENCE=..\def\acucobol.def;..\def\acugui.def;resource\gtanima.bmp
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\treesamp.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\wheelEvent.cbl]
+; Standard Options
+NAME_OBJECT_FILE=Object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=List\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
+
+[FILE_COMPILE_OPTION-BasicSamples:Debug Mode:..\winspool.cbl]
+COPY_DEPENDENCE=..\def\winprint.def;..\def\acucobol.def;..\def\fonts.def
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+MAX_ERROR_COUNT_NUM=100
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+LISTING_FILE=1
+NAME_LISTING_FILE=.\list\@.lst
+SYMBOL_TABLE=1
+FULL_LINSTING=1
+EXTENDED_STATISTICS=1
+; Compatibility Options
+COMPATIBILITY_VERSION=100
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=.\list\@.asq
+; Native Code Options
+; Debugger Options
+; Interop Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=100
